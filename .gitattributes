@@ -1,0 +1,9 @@
+# Guarda todo con finales de línea LF en el repo; Git para Windows
+# los convierte a CRLF al descargar, así no aparecen cambios fantasma.
+* text=auto
+
+# Binarios: no tocar
+*.png  binary
+*.jpg  binary
+*.ico  binary
+*.pdf  binary
