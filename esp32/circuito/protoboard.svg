@@ -1,0 +1,1502 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1656 868" font-family="IBM Plex Sans, DejaVu Sans, Arial, sans-serif" class="pb" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiZmUxNGU4Ni0zNmQ0LTQ1ZjYtODRhNC1iNWY0NDY1MDE2NGEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOjQ8WBZaMPRprE/uf+nGooAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNThlZTg0Yy1jNmZkLTQzNzctYjUyZC0yMjliNTBkODM3YjVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoioEqqLm9R4CqUPuSYbZ1MAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg9g6ubUss/1HUiLvuSvr8FgzvNF+Mm8LO13FtIBxLMcKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaA8KqQPkCtUgzY6uAyAjORUAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCt6/CE0lqMtOu7OxuAxA+tM3mS1sxdxVvzWdE/3johjmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmJmZTE0ZTg2LTM2ZDQtNDVmNi04NGE0LWI1ZjQ0NjUwMTY0YS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNlMmQ3YWRhLTM2Y2MtNDgzMi1hYmRjLWRjZjk3N2Y3MGMyZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD2Dq5tSyz/UdSIu+5K+vwWDO80X4ybws7XcW0gHEsxwqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg6PYA4IaAyow2zgypKrpsUlq7ahe+YPu7hAAr9fpSPWaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggZZlsCaJBCt5G5Nw6iHjvbAeP5ToKL5Kxd06q5Xd4ocl0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEoWhCDOCfXxlEl4lppbeOg9KY9J0Y+Nt0Qq53slNfWyaZt3C9VCbMxJ1RwQjTK45uzkjvbamADUykv3OEd6DkQ=</c2pa:manifest></metadata>
+<rect x="0" y="0" width="1656" height="868.4" fill="#eef1f3"/>
+<rect x="114.8" y="245.0" width="1456.4" height="378.4" fill="#fdfdfb" stroke="#c9ced3" stroke-width="1.5" rx="10"/>
+<rect x="118.8" y="426.5" width="1448.4" height="15.4" fill="#e3e6e9" rx="3"/>
+<line x1="132.8" y1="256.0" x2="1553.2" y2="256.0" stroke="#e03131" stroke-width="2" opacity=".75"/>
+<text x="108.8" y="270.5" font-size="10" text-anchor="end" fill="#e03131" font-weight="600" class="">+3V3</text>
+<text x="1577.2" y="270.5" font-size="10" text-anchor="start" fill="#e03131" font-weight="600" class="">+3V3</text>
+<line x1="132.8" y1="300.0" x2="1553.2" y2="300.0" stroke="#1c7ed6" stroke-width="2" opacity=".75"/>
+<text x="108.8" y="292.5" font-size="10" text-anchor="end" fill="#1c7ed6" font-weight="600" class="">GND</text>
+<text x="1577.2" y="292.5" font-size="10" text-anchor="start" fill="#1c7ed6" font-weight="600" class="">GND</text>
+<line x1="132.8" y1="568.4" x2="1553.2" y2="568.4" stroke="#1c7ed6" stroke-width="2" opacity=".75"/>
+<text x="108.8" y="582.9" font-size="10" text-anchor="end" fill="#1c7ed6" font-weight="600" class="">GND</text>
+<text x="1577.2" y="582.9" font-size="10" text-anchor="start" fill="#1c7ed6" font-weight="600" class="">GND</text>
+<line x1="132.8" y1="612.4" x2="1553.2" y2="612.4" stroke="#e8590c" stroke-width="2" opacity=".75"/>
+<text x="108.8" y="604.9" font-size="10" text-anchor="end" fill="#e8590c" font-weight="600" class="">+5V</text>
+<text x="1577.2" y="604.9" font-size="10" text-anchor="start" fill="#e8590c" font-weight="600" class="">+5V</text>
+<text x="128.0" y="327.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">A</text>
+<text x="1558.0" y="327.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">A</text>
+<text x="128.0" y="349.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">B</text>
+<text x="1558.0" y="349.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">B</text>
+<text x="128.0" y="371.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">C</text>
+<text x="1558.0" y="371.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">C</text>
+<text x="128.0" y="393.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">D</text>
+<text x="1558.0" y="393.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">D</text>
+<text x="128.0" y="415.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">E</text>
+<text x="1558.0" y="415.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">E</text>
+<text x="128.0" y="459.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">F</text>
+<text x="1558.0" y="459.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">F</text>
+<text x="128.0" y="481.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">G</text>
+<text x="1558.0" y="481.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">G</text>
+<text x="128.0" y="503.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">H</text>
+<text x="1558.0" y="503.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">H</text>
+<text x="128.0" y="525.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">I</text>
+<text x="1558.0" y="525.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">I</text>
+<text x="128.0" y="547.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">J</text>
+<text x="1558.0" y="547.7" font-size="10" text-anchor="middle" fill="#868e96" font-weight="600" class="">J</text>
+<text x="150.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">1</text>
+<text x="150.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">1</text>
+<text x="172.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">2</text>
+<text x="172.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">2</text>
+<text x="194.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">3</text>
+<text x="194.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">3</text>
+<text x="216.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">4</text>
+<text x="216.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">4</text>
+<text x="238.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">5</text>
+<text x="238.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">5</text>
+<text x="260.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">6</text>
+<text x="260.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">6</text>
+<text x="282.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">7</text>
+<text x="282.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">7</text>
+<text x="304.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">8</text>
+<text x="304.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">8</text>
+<text x="326.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">9</text>
+<text x="326.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">9</text>
+<text x="348.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">10</text>
+<text x="348.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">10</text>
+<text x="370.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">11</text>
+<text x="370.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">11</text>
+<text x="392.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">12</text>
+<text x="392.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">12</text>
+<text x="414.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">13</text>
+<text x="414.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">13</text>
+<text x="436.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">14</text>
+<text x="436.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">14</text>
+<text x="458.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">15</text>
+<text x="458.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">15</text>
+<text x="480.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">16</text>
+<text x="480.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">16</text>
+<text x="502.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">17</text>
+<text x="502.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">17</text>
+<text x="524.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">18</text>
+<text x="524.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">18</text>
+<text x="546.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">19</text>
+<text x="546.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">19</text>
+<text x="568.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">20</text>
+<text x="568.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">20</text>
+<text x="590.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">21</text>
+<text x="590.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">21</text>
+<text x="612.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">22</text>
+<text x="612.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">22</text>
+<text x="634.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">23</text>
+<text x="634.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">23</text>
+<text x="656.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">24</text>
+<text x="656.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">24</text>
+<text x="678.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">25</text>
+<text x="678.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">25</text>
+<text x="700.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">26</text>
+<text x="700.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">26</text>
+<text x="722.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">27</text>
+<text x="722.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">27</text>
+<text x="744.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">28</text>
+<text x="744.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">28</text>
+<text x="766.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">29</text>
+<text x="766.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">29</text>
+<text x="788.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">30</text>
+<text x="788.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">30</text>
+<text x="810.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">31</text>
+<text x="810.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">31</text>
+<text x="832.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">32</text>
+<text x="832.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">32</text>
+<text x="854.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">33</text>
+<text x="854.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">33</text>
+<text x="876.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">34</text>
+<text x="876.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">34</text>
+<text x="898.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">35</text>
+<text x="898.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">35</text>
+<text x="920.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">36</text>
+<text x="920.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">36</text>
+<text x="942.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">37</text>
+<text x="942.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">37</text>
+<text x="964.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">38</text>
+<text x="964.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">38</text>
+<text x="986.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">39</text>
+<text x="986.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">39</text>
+<text x="1008.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">40</text>
+<text x="1008.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">40</text>
+<text x="1030.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">41</text>
+<text x="1030.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">41</text>
+<text x="1052.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">42</text>
+<text x="1052.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">42</text>
+<text x="1074.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">43</text>
+<text x="1074.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">43</text>
+<text x="1096.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">44</text>
+<text x="1096.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">44</text>
+<text x="1118.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">45</text>
+<text x="1118.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">45</text>
+<text x="1140.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">46</text>
+<text x="1140.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">46</text>
+<text x="1162.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">47</text>
+<text x="1162.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">47</text>
+<text x="1184.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">48</text>
+<text x="1184.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">48</text>
+<text x="1206.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">49</text>
+<text x="1206.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">49</text>
+<text x="1228.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">50</text>
+<text x="1228.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">50</text>
+<text x="1250.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">51</text>
+<text x="1250.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">51</text>
+<text x="1272.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">52</text>
+<text x="1272.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">52</text>
+<text x="1294.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">53</text>
+<text x="1294.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">53</text>
+<text x="1316.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">54</text>
+<text x="1316.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">54</text>
+<text x="1338.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">55</text>
+<text x="1338.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">55</text>
+<text x="1360.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">56</text>
+<text x="1360.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">56</text>
+<text x="1382.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">57</text>
+<text x="1382.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">57</text>
+<text x="1404.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">58</text>
+<text x="1404.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">58</text>
+<text x="1426.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">59</text>
+<text x="1426.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">59</text>
+<text x="1448.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">60</text>
+<text x="1448.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">60</text>
+<text x="1470.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">61</text>
+<text x="1470.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">61</text>
+<text x="1492.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">62</text>
+<text x="1492.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">62</text>
+<text x="1514.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">63</text>
+<text x="1514.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">63</text>
+<text x="1536.0" y="309.6" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">64</text>
+<text x="1536.0" y="564.8" font-size="7.5" text-anchor="middle" fill="#adb5bd" font-weight="normal" class="">64</text>
+<rect class="h" data-net="n_T1" data-h="A1" x="146.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T1" data-h="B1" x="146.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T1" data-h="C1" x="146.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T1" data-h="D1" x="146.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T1" data-h="E1" x="146.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B1" data-h="F1" x="146.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B1" data-h="G1" x="146.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B1" data-h="H1" x="146.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B1" data-h="I1" x="146.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B1" data-h="J1" x="146.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 1" x="146.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 1" x="146.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 1" x="146.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 1" x="146.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T2" data-h="A2" x="168.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T2" data-h="B2" x="168.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T2" data-h="C2" x="168.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T2" data-h="D2" x="168.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T2" data-h="E2" x="168.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B2" data-h="F2" x="168.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B2" data-h="G2" x="168.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B2" data-h="H2" x="168.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B2" data-h="I2" x="168.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B2" data-h="J2" x="168.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 2" x="168.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 2" x="168.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 2" x="168.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 2" x="168.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GND_J3_danado" data-h="A3" x="190.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GND_J3_danado" data-h="B3" x="190.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GND_J3_danado" data-h="C3" x="190.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GND_J3_danado" data-h="D3" x="190.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GND_J3_danado" data-h="E3" x="190.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="F3" x="190.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="G3" x="190.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="H3" x="190.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="I3" x="190.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="J3" x="190.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 3" x="190.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 3" x="190.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 3" x="190.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 3" x="190.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="A4" x="212.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="B4" x="212.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="C4" x="212.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="D4" x="212.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="E4" x="212.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="F4" x="212.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="G4" x="212.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="H4" x="212.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="I4" x="212.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="J4" x="212.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 4" x="212.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 4" x="212.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 4" x="212.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 4" x="212.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="A5" x="234.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="B5" x="234.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="C5" x="234.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="D5" x="234.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="E5" x="234.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="F5" x="234.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="G5" x="234.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="H5" x="234.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="I5" x="234.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="J5" x="234.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 5" x="234.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 5" x="234.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 5" x="234.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 5" x="234.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO37" data-h="A6" x="256.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO37" data-h="B6" x="256.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO37" data-h="C6" x="256.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO37" data-h="D6" x="256.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO37" data-h="E6" x="256.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="F6" x="256.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="G6" x="256.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="H6" x="256.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="I6" x="256.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_Ve" data-h="J6" x="256.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 6" x="256.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 6" x="256.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 6" x="256.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 6" x="256.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO46" data-h="A7" x="278.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO46" data-h="B7" x="278.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO46" data-h="C7" x="278.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO46" data-h="D7" x="278.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO46" data-h="E7" x="278.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO44" data-h="F7" x="278.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO44" data-h="G7" x="278.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO44" data-h="H7" x="278.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO44" data-h="I7" x="278.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO44" data-h="J7" x="278.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 7" x="278.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 7" x="278.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 7" x="278.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 7" x="278.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO45" data-h="A8" x="300.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO45" data-h="B8" x="300.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO45" data-h="C8" x="300.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO45" data-h="D8" x="300.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO45" data-h="E8" x="300.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO43" data-h="F8" x="300.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO43" data-h="G8" x="300.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO43" data-h="H8" x="300.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO43" data-h="I8" x="300.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO43" data-h="J8" x="300.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 8" x="300.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 8" x="300.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 8" x="300.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 8" x="300.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="A9" x="322.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="B9" x="322.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="C9" x="322.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="D9" x="322.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="E9" x="322.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_RST" data-h="F9" x="322.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_RST" data-h="G9" x="322.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_RST" data-h="H9" x="322.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_RST" data-h="I9" x="322.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_RST" data-h="J9" x="322.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 9" x="322.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 9" x="322.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 9" x="322.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 9" x="322.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="A10" x="344.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="B10" x="344.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="C10" x="344.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="D10" x="344.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="E10" x="344.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO0" data-h="F10" x="344.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO0" data-h="G10" x="344.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO0" data-h="H10" x="344.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO0" data-h="I10" x="344.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO0" data-h="J10" x="344.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 10" x="344.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 10" x="344.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 10" x="344.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 10" x="344.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO40" data-h="A11" x="366.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO40" data-h="B11" x="366.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO40" data-h="C11" x="366.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO40" data-h="D11" x="366.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO40" data-h="E11" x="366.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO36" data-h="F11" x="366.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO36" data-h="G11" x="366.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO36" data-h="H11" x="366.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO36" data-h="I11" x="366.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO36" data-h="J11" x="366.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 11" x="366.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 11" x="366.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 11" x="366.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 11" x="366.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO39" data-h="A12" x="388.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO39" data-h="B12" x="388.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO39" data-h="C12" x="388.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO39" data-h="D12" x="388.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO39" data-h="E12" x="388.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO35" data-h="F12" x="388.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO35" data-h="G12" x="388.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO35" data-h="H12" x="388.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO35" data-h="I12" x="388.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO35" data-h="J12" x="388.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 12" x="388.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 12" x="388.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 12" x="388.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 12" x="388.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO38" data-h="A13" x="410.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO38" data-h="B13" x="410.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO38" data-h="C13" x="410.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO38" data-h="D13" x="410.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO38" data-h="E13" x="410.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO34" data-h="F13" x="410.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO34" data-h="G13" x="410.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO34" data-h="H13" x="410.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO34" data-h="I13" x="410.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO34" data-h="J13" x="410.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 13" x="410.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 13" x="410.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 13" x="410.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 13" x="410.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO1" data-h="A14" x="432.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO1" data-h="B14" x="432.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO1" data-h="C14" x="432.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO1" data-h="D14" x="432.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO1" data-h="E14" x="432.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO33" data-h="F14" x="432.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO33" data-h="G14" x="432.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO33" data-h="H14" x="432.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO33" data-h="I14" x="432.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO33" data-h="J14" x="432.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 14" x="432.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 14" x="432.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 14" x="432.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 14" x="432.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="A15" x="454.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="B15" x="454.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="C15" x="454.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="D15" x="454.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="E15" x="454.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO47" data-h="F15" x="454.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO47" data-h="G15" x="454.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO47" data-h="H15" x="454.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO47" data-h="I15" x="454.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO47" data-h="J15" x="454.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 15" x="454.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 15" x="454.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 15" x="454.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 15" x="454.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="A16" x="476.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="B16" x="476.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="C16" x="476.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="D16" x="476.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="E16" x="476.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO48" data-h="F16" x="476.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO48" data-h="G16" x="476.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO48" data-h="H16" x="476.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO48" data-h="I16" x="476.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO48" data-h="J16" x="476.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 16" x="476.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 16" x="476.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 16" x="476.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 16" x="476.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO4" data-h="A17" x="498.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO4" data-h="B17" x="498.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO4" data-h="C17" x="498.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO4" data-h="D17" x="498.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO4" data-h="E17" x="498.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO26" data-h="F17" x="498.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO26" data-h="G17" x="498.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO26" data-h="H17" x="498.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO26" data-h="I17" x="498.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO26" data-h="J17" x="498.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 17" x="498.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 17" x="498.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 17" x="498.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 17" x="498.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="A18" x="520.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="B18" x="520.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="C18" x="520.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="D18" x="520.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="E18" x="520.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO21" data-h="F18" x="520.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO21" data-h="G18" x="520.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO21" data-h="H18" x="520.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO21" data-h="I18" x="520.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO21" data-h="J18" x="520.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 18" x="520.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 18" x="520.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 18" x="520.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 18" x="520.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="A19" x="542.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="B19" x="542.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="C19" x="542.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="D19" x="542.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="E19" x="542.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO20" data-h="F19" x="542.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO20" data-h="G19" x="542.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO20" data-h="H19" x="542.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO20" data-h="I19" x="542.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO20" data-h="J19" x="542.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 19" x="542.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 19" x="542.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 19" x="542.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 19" x="542.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="A20" x="564.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="B20" x="564.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="C20" x="564.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="D20" x="564.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="E20" x="564.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO19" data-h="F20" x="564.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO19" data-h="G20" x="564.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO19" data-h="H20" x="564.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO19" data-h="I20" x="564.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_U1_GPIO19" data-h="J20" x="564.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 20" x="564.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 20" x="564.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 20" x="564.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 20" x="564.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T21" data-h="A21" x="586.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T21" data-h="B21" x="586.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T21" data-h="C21" x="586.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T21" data-h="D21" x="586.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T21" data-h="E21" x="586.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B21" data-h="F21" x="586.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B21" data-h="G21" x="586.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B21" data-h="H21" x="586.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B21" data-h="I21" x="586.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B21" data-h="J21" x="586.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 21" x="586.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 21" x="586.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 21" x="586.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 21" x="586.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T22" data-h="A22" x="608.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T22" data-h="B22" x="608.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T22" data-h="C22" x="608.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T22" data-h="D22" x="608.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T22" data-h="E22" x="608.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B22" data-h="F22" x="608.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B22" data-h="G22" x="608.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B22" data-h="H22" x="608.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B22" data-h="I22" x="608.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B22" data-h="J22" x="608.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 22" x="608.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 22" x="608.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 22" x="608.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 22" x="608.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="A23" x="630.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="B23" x="630.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="C23" x="630.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="D23" x="630.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T23" data-h="E23" x="630.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B23" data-h="F23" x="630.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B23" data-h="G23" x="630.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B23" data-h="H23" x="630.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B23" data-h="I23" x="630.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B23" data-h="J23" x="630.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 23" x="630.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 23" x="630.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 23" x="630.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 23" x="630.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T24" data-h="A24" x="652.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T24" data-h="B24" x="652.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T24" data-h="C24" x="652.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T24" data-h="D24" x="652.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T24" data-h="E24" x="652.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B24" data-h="F24" x="652.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B24" data-h="G24" x="652.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B24" data-h="H24" x="652.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B24" data-h="I24" x="652.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B24" data-h="J24" x="652.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 24" x="652.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 24" x="652.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 24" x="652.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 24" x="652.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T25" data-h="A25" x="674.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T25" data-h="B25" x="674.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T25" data-h="C25" x="674.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T25" data-h="D25" x="674.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T25" data-h="E25" x="674.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B25" data-h="F25" x="674.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B25" data-h="G25" x="674.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B25" data-h="H25" x="674.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B25" data-h="I25" x="674.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B25" data-h="J25" x="674.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 25" x="674.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 25" x="674.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 25" x="674.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 25" x="674.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="A26" x="696.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="B26" x="696.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="C26" x="696.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="D26" x="696.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T26" data-h="E26" x="696.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B26" data-h="F26" x="696.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B26" data-h="G26" x="696.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B26" data-h="H26" x="696.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B26" data-h="I26" x="696.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B26" data-h="J26" x="696.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 26" x="696.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 26" x="696.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 26" x="696.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 26" x="696.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T27" data-h="A27" x="718.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T27" data-h="B27" x="718.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T27" data-h="C27" x="718.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T27" data-h="D27" x="718.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T27" data-h="E27" x="718.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B27" data-h="F27" x="718.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B27" data-h="G27" x="718.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B27" data-h="H27" x="718.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B27" data-h="I27" x="718.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B27" data-h="J27" x="718.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 27" x="718.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 27" x="718.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 27" x="718.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 27" x="718.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T28" data-h="A28" x="740.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T28" data-h="B28" x="740.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T28" data-h="C28" x="740.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T28" data-h="D28" x="740.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T28" data-h="E28" x="740.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B28" data-h="F28" x="740.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B28" data-h="G28" x="740.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B28" data-h="H28" x="740.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B28" data-h="I28" x="740.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B28" data-h="J28" x="740.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 28" x="740.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 28" x="740.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 28" x="740.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 28" x="740.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="A29" x="762.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="B29" x="762.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="C29" x="762.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="D29" x="762.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T29" data-h="E29" x="762.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B29" data-h="F29" x="762.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B29" data-h="G29" x="762.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B29" data-h="H29" x="762.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B29" data-h="I29" x="762.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B29" data-h="J29" x="762.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 29" x="762.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 29" x="762.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 29" x="762.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 29" x="762.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T30" data-h="A30" x="784.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T30" data-h="B30" x="784.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T30" data-h="C30" x="784.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T30" data-h="D30" x="784.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T30" data-h="E30" x="784.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B30" data-h="F30" x="784.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B30" data-h="G30" x="784.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B30" data-h="H30" x="784.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B30" data-h="I30" x="784.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B30" data-h="J30" x="784.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 30" x="784.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 30" x="784.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 30" x="784.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 30" x="784.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T31" data-h="A31" x="806.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T31" data-h="B31" x="806.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T31" data-h="C31" x="806.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T31" data-h="D31" x="806.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T31" data-h="E31" x="806.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="F31" x="806.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="G31" x="806.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="H31" x="806.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="I31" x="806.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="J31" x="806.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 31" x="806.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 31" x="806.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 31" x="806.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 31" x="806.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="A32" x="828.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="B32" x="828.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="C32" x="828.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="D32" x="828.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T32" data-h="E32" x="828.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B32" data-h="F32" x="828.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B32" data-h="G32" x="828.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B32" data-h="H32" x="828.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B32" data-h="I32" x="828.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B32" data-h="J32" x="828.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 32" x="828.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 32" x="828.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 32" x="828.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 32" x="828.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T33" data-h="A33" x="850.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T33" data-h="B33" x="850.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T33" data-h="C33" x="850.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T33" data-h="D33" x="850.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T33" data-h="E33" x="850.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B33" data-h="F33" x="850.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B33" data-h="G33" x="850.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B33" data-h="H33" x="850.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B33" data-h="I33" x="850.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B33" data-h="J33" x="850.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 33" x="850.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 33" x="850.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 33" x="850.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 33" x="850.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T34" data-h="A34" x="872.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T34" data-h="B34" x="872.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T34" data-h="C34" x="872.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T34" data-h="D34" x="872.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T34" data-h="E34" x="872.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B34" data-h="F34" x="872.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B34" data-h="G34" x="872.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B34" data-h="H34" x="872.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B34" data-h="I34" x="872.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B34" data-h="J34" x="872.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 34" x="872.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 34" x="872.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 34" x="872.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 34" x="872.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="A35" x="894.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="B35" x="894.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="C35" x="894.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="D35" x="894.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="E35" x="894.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="F35" x="894.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="G35" x="894.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="H35" x="894.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="I35" x="894.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B35" data-h="J35" x="894.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 35" x="894.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 35" x="894.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 35" x="894.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 35" x="894.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T36" data-h="A36" x="916.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T36" data-h="B36" x="916.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T36" data-h="C36" x="916.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T36" data-h="D36" x="916.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T36" data-h="E36" x="916.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B36" data-h="F36" x="916.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B36" data-h="G36" x="916.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B36" data-h="H36" x="916.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B36" data-h="I36" x="916.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B36" data-h="J36" x="916.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 36" x="916.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 36" x="916.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 36" x="916.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 36" x="916.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="A37" x="938.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="B37" x="938.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="C37" x="938.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="D37" x="938.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="E37" x="938.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="F37" x="938.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="G37" x="938.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="H37" x="938.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="I37" x="938.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="J37" x="938.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 37" x="938.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 37" x="938.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 37" x="938.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 37" x="938.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T38" data-h="A38" x="960.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T38" data-h="B38" x="960.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T38" data-h="C38" x="960.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T38" data-h="D38" x="960.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T38" data-h="E38" x="960.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B38" data-h="F38" x="960.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B38" data-h="G38" x="960.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B38" data-h="H38" x="960.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B38" data-h="I38" x="960.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B38" data-h="J38" x="960.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 38" x="960.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 38" x="960.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 38" x="960.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 38" x="960.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T39" data-h="A39" x="982.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T39" data-h="B39" x="982.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T39" data-h="C39" x="982.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T39" data-h="D39" x="982.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T39" data-h="E39" x="982.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B39" data-h="F39" x="982.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B39" data-h="G39" x="982.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B39" data-h="H39" x="982.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B39" data-h="I39" x="982.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B39" data-h="J39" x="982.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 39" x="982.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 39" x="982.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 39" x="982.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 39" x="982.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="A40" x="1004.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="B40" x="1004.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="C40" x="1004.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="D40" x="1004.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T40" data-h="E40" x="1004.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B40" data-h="F40" x="1004.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B40" data-h="G40" x="1004.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B40" data-h="H40" x="1004.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B40" data-h="I40" x="1004.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B40" data-h="J40" x="1004.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 40" x="1004.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 40" x="1004.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 40" x="1004.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 40" x="1004.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="A41" x="1026.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="B41" x="1026.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="C41" x="1026.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="D41" x="1026.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T41" data-h="E41" x="1026.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B41" data-h="F41" x="1026.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B41" data-h="G41" x="1026.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B41" data-h="H41" x="1026.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B41" data-h="I41" x="1026.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B41" data-h="J41" x="1026.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 41" x="1026.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 41" x="1026.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 41" x="1026.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 41" x="1026.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="A42" x="1048.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="B42" x="1048.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="C42" x="1048.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="D42" x="1048.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="E42" x="1048.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B42" data-h="F42" x="1048.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B42" data-h="G42" x="1048.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B42" data-h="H42" x="1048.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B42" data-h="I42" x="1048.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B42" data-h="J42" x="1048.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 42" x="1048.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 42" x="1048.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 42" x="1048.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 42" x="1048.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="A43" x="1070.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="B43" x="1070.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="C43" x="1070.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="D43" x="1070.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="E43" x="1070.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B43" data-h="F43" x="1070.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B43" data-h="G43" x="1070.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B43" data-h="H43" x="1070.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B43" data-h="I43" x="1070.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B43" data-h="J43" x="1070.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 43" x="1070.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 43" x="1070.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 43" x="1070.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 43" x="1070.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T44" data-h="A44" x="1092.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T44" data-h="B44" x="1092.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T44" data-h="C44" x="1092.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T44" data-h="D44" x="1092.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T44" data-h="E44" x="1092.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B44" data-h="F44" x="1092.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B44" data-h="G44" x="1092.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B44" data-h="H44" x="1092.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B44" data-h="I44" x="1092.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B44" data-h="J44" x="1092.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 44" x="1092.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 44" x="1092.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 44" x="1092.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 44" x="1092.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T45" data-h="A45" x="1114.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T45" data-h="B45" x="1114.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T45" data-h="C45" x="1114.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T45" data-h="D45" x="1114.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T45" data-h="E45" x="1114.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B45" data-h="F45" x="1114.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B45" data-h="G45" x="1114.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B45" data-h="H45" x="1114.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B45" data-h="I45" x="1114.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B45" data-h="J45" x="1114.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 45" x="1114.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 45" x="1114.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 45" x="1114.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 45" x="1114.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T46" data-h="A46" x="1136.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T46" data-h="B46" x="1136.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T46" data-h="C46" x="1136.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T46" data-h="D46" x="1136.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T46" data-h="E46" x="1136.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B46" data-h="F46" x="1136.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B46" data-h="G46" x="1136.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B46" data-h="H46" x="1136.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B46" data-h="I46" x="1136.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B46" data-h="J46" x="1136.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 46" x="1136.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 46" x="1136.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 46" x="1136.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 46" x="1136.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T47" data-h="A47" x="1158.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T47" data-h="B47" x="1158.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T47" data-h="C47" x="1158.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T47" data-h="D47" x="1158.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T47" data-h="E47" x="1158.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B47" data-h="F47" x="1158.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B47" data-h="G47" x="1158.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B47" data-h="H47" x="1158.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B47" data-h="I47" x="1158.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B47" data-h="J47" x="1158.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 47" x="1158.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 47" x="1158.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 47" x="1158.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 47" x="1158.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T48" data-h="A48" x="1180.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T48" data-h="B48" x="1180.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T48" data-h="C48" x="1180.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T48" data-h="D48" x="1180.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T48" data-h="E48" x="1180.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B48" data-h="F48" x="1180.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B48" data-h="G48" x="1180.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B48" data-h="H48" x="1180.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B48" data-h="I48" x="1180.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B48" data-h="J48" x="1180.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 48" x="1180.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 48" x="1180.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 48" x="1180.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 48" x="1180.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T49" data-h="A49" x="1202.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T49" data-h="B49" x="1202.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T49" data-h="C49" x="1202.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T49" data-h="D49" x="1202.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T49" data-h="E49" x="1202.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B49" data-h="F49" x="1202.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B49" data-h="G49" x="1202.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B49" data-h="H49" x="1202.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B49" data-h="I49" x="1202.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B49" data-h="J49" x="1202.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 49" x="1202.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 49" x="1202.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 49" x="1202.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 49" x="1202.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T50" data-h="A50" x="1224.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T50" data-h="B50" x="1224.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T50" data-h="C50" x="1224.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T50" data-h="D50" x="1224.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T50" data-h="E50" x="1224.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B50" data-h="F50" x="1224.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B50" data-h="G50" x="1224.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B50" data-h="H50" x="1224.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B50" data-h="I50" x="1224.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B50" data-h="J50" x="1224.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 50" x="1224.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 50" x="1224.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 50" x="1224.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 50" x="1224.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T51" data-h="A51" x="1246.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T51" data-h="B51" x="1246.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T51" data-h="C51" x="1246.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T51" data-h="D51" x="1246.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T51" data-h="E51" x="1246.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B51" data-h="F51" x="1246.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B51" data-h="G51" x="1246.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B51" data-h="H51" x="1246.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B51" data-h="I51" x="1246.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B51" data-h="J51" x="1246.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 51" x="1246.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 51" x="1246.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 51" x="1246.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 51" x="1246.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T52" data-h="A52" x="1268.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T52" data-h="B52" x="1268.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T52" data-h="C52" x="1268.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T52" data-h="D52" x="1268.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T52" data-h="E52" x="1268.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B52" data-h="F52" x="1268.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B52" data-h="G52" x="1268.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B52" data-h="H52" x="1268.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B52" data-h="I52" x="1268.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B52" data-h="J52" x="1268.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 52" x="1268.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 52" x="1268.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 52" x="1268.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 52" x="1268.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T53" data-h="A53" x="1290.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T53" data-h="B53" x="1290.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T53" data-h="C53" x="1290.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T53" data-h="D53" x="1290.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T53" data-h="E53" x="1290.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B53" data-h="F53" x="1290.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B53" data-h="G53" x="1290.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B53" data-h="H53" x="1290.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B53" data-h="I53" x="1290.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B53" data-h="J53" x="1290.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 53" x="1290.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 53" x="1290.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 53" x="1290.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 53" x="1290.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T54" data-h="A54" x="1312.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T54" data-h="B54" x="1312.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T54" data-h="C54" x="1312.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T54" data-h="D54" x="1312.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T54" data-h="E54" x="1312.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B54" data-h="F54" x="1312.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B54" data-h="G54" x="1312.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B54" data-h="H54" x="1312.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B54" data-h="I54" x="1312.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B54" data-h="J54" x="1312.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 54" x="1312.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 54" x="1312.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 54" x="1312.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 54" x="1312.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T55" data-h="A55" x="1334.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T55" data-h="B55" x="1334.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T55" data-h="C55" x="1334.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T55" data-h="D55" x="1334.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T55" data-h="E55" x="1334.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B55" data-h="F55" x="1334.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B55" data-h="G55" x="1334.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B55" data-h="H55" x="1334.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B55" data-h="I55" x="1334.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B55" data-h="J55" x="1334.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 55" x="1334.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 55" x="1334.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 55" x="1334.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 55" x="1334.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T56" data-h="A56" x="1356.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T56" data-h="B56" x="1356.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T56" data-h="C56" x="1356.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T56" data-h="D56" x="1356.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T56" data-h="E56" x="1356.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B56" data-h="F56" x="1356.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B56" data-h="G56" x="1356.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B56" data-h="H56" x="1356.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B56" data-h="I56" x="1356.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B56" data-h="J56" x="1356.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 56" x="1356.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 56" x="1356.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 56" x="1356.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 56" x="1356.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T57" data-h="A57" x="1378.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T57" data-h="B57" x="1378.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T57" data-h="C57" x="1378.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T57" data-h="D57" x="1378.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T57" data-h="E57" x="1378.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B57" data-h="F57" x="1378.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B57" data-h="G57" x="1378.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B57" data-h="H57" x="1378.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B57" data-h="I57" x="1378.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B57" data-h="J57" x="1378.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 57" x="1378.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 57" x="1378.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 57" x="1378.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 57" x="1378.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T58" data-h="A58" x="1400.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T58" data-h="B58" x="1400.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T58" data-h="C58" x="1400.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T58" data-h="D58" x="1400.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T58" data-h="E58" x="1400.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B58" data-h="F58" x="1400.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B58" data-h="G58" x="1400.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B58" data-h="H58" x="1400.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B58" data-h="I58" x="1400.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B58" data-h="J58" x="1400.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 58" x="1400.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 58" x="1400.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 58" x="1400.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 58" x="1400.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T59" data-h="A59" x="1422.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T59" data-h="B59" x="1422.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T59" data-h="C59" x="1422.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T59" data-h="D59" x="1422.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T59" data-h="E59" x="1422.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="F59" x="1422.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="G59" x="1422.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="H59" x="1422.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="I59" x="1422.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="J59" x="1422.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 59" x="1422.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 59" x="1422.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 59" x="1422.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 59" x="1422.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T60" data-h="A60" x="1444.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T60" data-h="B60" x="1444.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T60" data-h="C60" x="1444.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T60" data-h="D60" x="1444.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T60" data-h="E60" x="1444.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B60" data-h="F60" x="1444.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B60" data-h="G60" x="1444.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B60" data-h="H60" x="1444.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B60" data-h="I60" x="1444.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B60" data-h="J60" x="1444.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 60" x="1444.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 60" x="1444.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 60" x="1444.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 60" x="1444.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T61" data-h="A61" x="1466.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T61" data-h="B61" x="1466.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T61" data-h="C61" x="1466.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T61" data-h="D61" x="1466.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T61" data-h="E61" x="1466.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B61" data-h="F61" x="1466.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B61" data-h="G61" x="1466.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B61" data-h="H61" x="1466.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B61" data-h="I61" x="1466.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B61" data-h="J61" x="1466.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 61" x="1466.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 61" x="1466.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 61" x="1466.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 61" x="1466.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T62" data-h="A62" x="1488.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T62" data-h="B62" x="1488.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T62" data-h="C62" x="1488.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T62" data-h="D62" x="1488.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T62" data-h="E62" x="1488.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B62" data-h="F62" x="1488.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B62" data-h="G62" x="1488.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B62" data-h="H62" x="1488.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B62" data-h="I62" x="1488.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B62" data-h="J62" x="1488.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 62" x="1488.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 62" x="1488.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 62" x="1488.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 62" x="1488.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T63" data-h="A63" x="1510.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T63" data-h="B63" x="1510.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T63" data-h="C63" x="1510.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T63" data-h="D63" x="1510.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T63" data-h="E63" x="1510.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B63" data-h="F63" x="1510.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B63" data-h="G63" x="1510.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B63" data-h="H63" x="1510.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B63" data-h="I63" x="1510.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B63" data-h="J63" x="1510.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 63" x="1510.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 63" x="1510.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 63" x="1510.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 63" x="1510.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T64" data-h="A64" x="1532.6" y="320.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T64" data-h="B64" x="1532.6" y="342.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T64" data-h="C64" x="1532.6" y="364.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T64" data-h="D64" x="1532.6" y="386.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_T64" data-h="E64" x="1532.6" y="408.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B64" data-h="F64" x="1532.6" y="452.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B64" data-h="G64" x="1532.6" y="474.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B64" data-h="H64" x="1532.6" y="496.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B64" data-h="I64" x="1532.6" y="518.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_B64" data-h="J64" x="1532.6" y="540.8" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R1" data-h="riel superior externo (+3V3), col. 64" x="1532.6" y="263.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel superior interno (GND), col. 64" x="1532.6" y="285.6" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R2" data-h="riel inferior interno (GND), col. 64" x="1532.6" y="576.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<rect class="h" data-net="n_R4" data-h="riel inferior externo (+5V), col. 64" x="1532.6" y="598.0" width="6.8" height="6.8" rx="1.4" fill="#3d4248"/>
+<g id="n-c_U1" class="part">
+<rect x="147.2" y="421.2" width="30.0" height="26.0" fill="#ced4da" stroke="#868e96" rx="4"/>
+<rect x="163.2" y="332.6" width="435.6" height="203.3" fill="#1f2a44" stroke="#0b1220" stroke-width="1.5" rx="5"/>
+<text x="183.2" y="438.2" font-size="8" text-anchor="start" fill="#adb5bd" font-weight="normal" class="">USB-C</text>
+<rect x="234.4" y="373.4" width="16.0" height="16.0" fill="#ced4da" stroke="#495057" rx="2"/>
+<circle cx="242.4" cy="381.4" r="4" fill="#343a40"/>
+<text x="255.4" y="384.4" font-size="7.5" text-anchor="start" fill="#9fb0d0" font-weight="normal" class="">PRG</text>
+<rect x="234.4" y="479.0" width="16.0" height="16.0" fill="#ced4da" stroke="#495057" rx="2"/>
+<circle cx="242.4" cy="487.0" r="4" fill="#343a40"/>
+<text x="255.4" y="490.0" font-size="7.5" text-anchor="start" fill="#9fb0d0" font-weight="normal" class="">RST</text>
+<circle cx="295.2" cy="381.4" r="5" fill="#c9a227" stroke="#7a5f00"/>
+<rect x="576.8" y="362.7" width="16.0" height="34.1" fill="#2b8a6e" stroke="#155e48" rx="2"/>
+<rect x="334.8" y="379.2" width="202.4" height="110.0" fill="#0b0f1a" stroke="#3b4a6b" rx="2"/>
+<text x="436.0" y="430.2" font-size="10.5" text-anchor="middle" fill="#8fb3ff" font-weight="600" class="">Heltec WiFi LoRa 32 V3</text>
+<text x="436.0" y="445.2" font-size="8.5" text-anchor="middle" fill="#5c6f99" font-weight="normal" class="">pantalla hacia arriba</text>
+<rect class="pin" data-net="n_U1_GND_J3_danado" data-h="Heltec J3 pin GND (B3) — DAÑADO, no se usa" x="189.5" y="341.7" width="9" height="9" rx="1.5" fill="#e03131"/>
+<path d="M188,340.2 L200,352.2 M200,340.2 L188,352.2" stroke="#ff6b6b" stroke-width="2.4" stroke-linecap="round"/>
+<text x="194.0" y="362.2" font-size="7.5" text-anchor="middle" fill="#ff8787" font-weight="600" class="">GND</text>
+<rect class="pin used" data-net="n_R1" data-h="Heltec J3 pin 3V3 (B4)" x="211.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="216.0" y="362.2" font-size="7.5" text-anchor="middle" fill="#ffe066" font-weight="600" class="">3V3</text>
+<rect class="pin" data-net="n_R1" data-h="Heltec J3 pin 3V3 (B5)" x="233.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="238.0" y="362.2" font-size="7.5" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">3V3</text>
+<rect class="pin" data-net="n_U1_GPIO37" data-h="Heltec J3 pin 37 (B6)" x="255.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="260.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">37</text>
+<rect class="pin" data-net="n_U1_GPIO46" data-h="Heltec J3 pin 46 (B7)" x="277.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="282.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">46</text>
+<rect class="pin" data-net="n_U1_GPIO45" data-h="Heltec J3 pin 45 (B8)" x="299.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="304.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">45</text>
+<rect class="pin used" data-net="n_T41" data-h="Heltec J3 pin 42 (B9)" x="321.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="326.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">42</text>
+<rect class="pin used" data-net="n_T40" data-h="Heltec J3 pin 41 (B10)" x="343.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="348.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">41</text>
+<rect class="pin" data-net="n_U1_GPIO40" data-h="Heltec J3 pin 40 (B11)" x="365.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="370.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">40</text>
+<rect class="pin" data-net="n_U1_GPIO39" data-h="Heltec J3 pin 39 (B12)" x="387.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="392.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">39</text>
+<rect class="pin" data-net="n_U1_GPIO38" data-h="Heltec J3 pin 38 (B13)" x="409.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="414.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">38</text>
+<rect class="pin" data-net="n_U1_GPIO1" data-h="Heltec J3 pin 1 (B14)" x="431.5" y="341.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="436.0" y="362.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">1</text>
+<rect class="pin used" data-net="n_B35" data-h="Heltec J3 pin 2 (B15)" x="453.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="458.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">2</text>
+<rect class="pin used" data-net="n_T32" data-h="Heltec J3 pin 3 (B16)" x="475.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="480.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">3</text>
+<rect class="pin used" data-net="n_U1_GPIO4" data-h="Heltec J3 pin 4 (B17)" x="497.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="502.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">4</text>
+<rect class="pin used" data-net="n_T29" data-h="Heltec J3 pin 5 (B18)" x="519.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="524.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">5</text>
+<rect class="pin used" data-net="n_T26" data-h="Heltec J3 pin 6 (B19)" x="541.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="546.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">6</text>
+<rect class="pin used" data-net="n_T23" data-h="Heltec J3 pin 7 (B20)" x="563.5" y="341.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="568.0" y="362.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">7</text>
+<rect class="pin used" data-net="n_R2" data-h="Heltec J2 pin GND (I3)" x="189.5" y="517.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="194.0" y="512.2" font-size="7.5" text-anchor="middle" fill="#ffe066" font-weight="600" class="">GND</text>
+<rect class="pin used" data-net="n_R4" data-h="Heltec J2 pin 5V (I4)" x="211.5" y="517.7" width="9" height="9" rx="1.5" fill="#f2c14e"/>
+<text x="216.0" y="512.2" font-size="8" text-anchor="middle" fill="#ffe066" font-weight="600" class="">5V</text>
+<rect class="pin" data-net="n_U1_Ve" data-h="Heltec J2 pin Ve (I5)" x="233.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="238.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">Ve</text>
+<rect class="pin" data-net="n_U1_Ve" data-h="Heltec J2 pin Ve (I6)" x="255.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="260.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">Ve</text>
+<rect class="pin" data-net="n_U1_GPIO44" data-h="Heltec J2 pin 44 (I7)" x="277.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="282.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">44</text>
+<rect class="pin" data-net="n_U1_GPIO43" data-h="Heltec J2 pin 43 (I8)" x="299.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="304.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">43</text>
+<rect class="pin" data-net="n_U1_RST" data-h="Heltec J2 pin RST (I9)" x="321.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="326.0" y="512.2" font-size="7.5" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">RST</text>
+<rect class="pin" data-net="n_U1_GPIO0" data-h="Heltec J2 pin 0 (I10)" x="343.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="348.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">0</text>
+<rect class="pin" data-net="n_U1_GPIO36" data-h="Heltec J2 pin 36 (I11)" x="365.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="370.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">36</text>
+<rect class="pin" data-net="n_U1_GPIO35" data-h="Heltec J2 pin 35 (I12)" x="387.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="392.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">35</text>
+<rect class="pin" data-net="n_U1_GPIO34" data-h="Heltec J2 pin 34 (I13)" x="409.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="414.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">34</text>
+<rect class="pin" data-net="n_U1_GPIO33" data-h="Heltec J2 pin 33 (I14)" x="431.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="436.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">33</text>
+<rect class="pin" data-net="n_U1_GPIO47" data-h="Heltec J2 pin 47 (I15)" x="453.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="458.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">47</text>
+<rect class="pin" data-net="n_U1_GPIO48" data-h="Heltec J2 pin 48 (I16)" x="475.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="480.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">48</text>
+<rect class="pin" data-net="n_U1_GPIO26" data-h="Heltec J2 pin 26 (I17)" x="497.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="502.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">26</text>
+<rect class="pin" data-net="n_U1_GPIO21" data-h="Heltec J2 pin 21 (I18)" x="519.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="524.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">21</text>
+<rect class="pin" data-net="n_U1_GPIO20" data-h="Heltec J2 pin 20 (I19)" x="541.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="546.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">20</text>
+<rect class="pin" data-net="n_U1_GPIO19" data-h="Heltec J2 pin 19 (I20)" x="563.5" y="517.7" width="9" height="9" rx="1.5" fill="#9c8746"/>
+<text x="568.0" y="512.2" font-size="8" text-anchor="middle" fill="#c5d0e6" font-weight="normal" class="">19</text>
+<text x="570.8" y="372.2" font-size="7.5" text-anchor="end" fill="#7c8db5" font-weight="normal" class="">J3</text>
+<text x="570.8" y="502.2" font-size="7.5" text-anchor="end" fill="#7c8db5" font-weight="normal" class="">J2</text>
+</g>
+<g id="n-c_R2" class="part">
+<polyline points="634,412.2 634,414.7 634,434.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_T23"/>
+<polyline points="634,434.2 634,453.7 634,456.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_B23"/>
+<rect x="628.5" y="419.2" width="11.0" height="30.0" fill="#e9d8a6" stroke="#a68a52" rx="5"/>
+<rect x="628.5" y="423.6" width="11.0" height="3.2" fill="#e03131"/>
+<rect x="628.5" y="428.6" width="11.0" height="3.2" fill="#111"/>
+<rect x="628.5" y="433.6" width="11.0" height="3.2" fill="#7b4a1e"/>
+<rect x="628.5" y="441.6" width="11.0" height="3.2" fill="#c9a227"/>
+<circle cx="634" cy="412.2" r="2.6" fill="#909296"/>
+<circle cx="634" cy="456.2" r="2.6" fill="#909296"/>
+<text x="642.0" y="437.7" font-size="8.5" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">R2</text>
+<text x="642.0" y="437.7" font-size="8.5" text-anchor="start" fill="#495057" font-weight="700" class="">R2</text>
+</g>
+<g id="n-c_R1" class="part">
+<polyline points="700,412.2 700,414.7 700,434.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_T26"/>
+<polyline points="700,434.2 700,453.7 700,456.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_B26"/>
+<rect x="694.5" y="419.2" width="11.0" height="30.0" fill="#e9d8a6" stroke="#a68a52" rx="5"/>
+<rect x="694.5" y="423.6" width="11.0" height="3.2" fill="#e03131"/>
+<rect x="694.5" y="428.6" width="11.0" height="3.2" fill="#111"/>
+<rect x="694.5" y="433.6" width="11.0" height="3.2" fill="#7b4a1e"/>
+<rect x="694.5" y="441.6" width="11.0" height="3.2" fill="#c9a227"/>
+<circle cx="700" cy="412.2" r="2.6" fill="#909296"/>
+<circle cx="700" cy="456.2" r="2.6" fill="#909296"/>
+<text x="708.0" y="437.7" font-size="8.5" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">R1</text>
+<text x="708.0" y="437.7" font-size="8.5" text-anchor="start" fill="#495057" font-weight="700" class="">R1</text>
+</g>
+<g id="n-c_R3a" class="part">
+<polyline points="766,412.2 766,414.7 766,434.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_T29"/>
+<polyline points="766,434.2 766,453.7 766,456.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_B29"/>
+<rect x="760.5" y="419.2" width="11.0" height="30.0" fill="#e9d8a6" stroke="#a68a52" rx="5"/>
+<rect x="760.5" y="423.6" width="11.0" height="3.2" fill="#e03131"/>
+<rect x="760.5" y="428.6" width="11.0" height="3.2" fill="#111"/>
+<rect x="760.5" y="433.6" width="11.0" height="3.2" fill="#7b4a1e"/>
+<rect x="760.5" y="441.6" width="11.0" height="3.2" fill="#c9a227"/>
+<circle cx="766" cy="412.2" r="2.6" fill="#909296"/>
+<circle cx="766" cy="456.2" r="2.6" fill="#909296"/>
+</g>
+<g id="n-c_R3b" class="part">
+<polyline points="766,390.2 778,403.7 778,434.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_T29"/>
+<polyline points="778,434.2 778,464.7 766,478.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_B29"/>
+<rect x="772.5" y="419.2" width="11.0" height="30.0" fill="#e9d8a6" stroke="#a68a52" rx="5"/>
+<rect x="772.5" y="423.6" width="11.0" height="3.2" fill="#e03131"/>
+<rect x="772.5" y="428.6" width="11.0" height="3.2" fill="#111"/>
+<rect x="772.5" y="433.6" width="11.0" height="3.2" fill="#7b4a1e"/>
+<rect x="772.5" y="441.6" width="11.0" height="3.2" fill="#c9a227"/>
+<circle cx="766" cy="390.2" r="2.6" fill="#909296"/>
+<circle cx="766" cy="478.2" r="2.6" fill="#909296"/>
+<text x="786.0" y="437.7" font-size="8.5" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">R3 ×2</text>
+<text x="786.0" y="437.7" font-size="8.5" text-anchor="start" fill="#495057" font-weight="700" class="">R3 ×2</text>
+</g>
+<g id="n-c_R4" class="part">
+<polyline points="832,412.2 832,414.7 832,434.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_T32"/>
+<polyline points="832,434.2 832,453.7 832,456.2" fill="none" stroke="#909296" stroke-width="2" data-net="n_B32"/>
+<rect x="826.5" y="419.2" width="11.0" height="30.0" fill="#e9d8a6" stroke="#a68a52" rx="5"/>
+<rect x="826.5" y="423.6" width="11.0" height="3.2" fill="#7b4a1e"/>
+<rect x="826.5" y="428.6" width="11.0" height="3.2" fill="#111"/>
+<rect x="826.5" y="433.6" width="11.0" height="3.2" fill="#e03131"/>
+<rect x="826.5" y="441.6" width="11.0" height="3.2" fill="#c9a227"/>
+<circle cx="832" cy="412.2" r="2.6" fill="#909296"/>
+<circle cx="832" cy="456.2" r="2.6" fill="#909296"/>
+<text x="840.0" y="437.7" font-size="8.5" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">R4</text>
+<text x="840.0" y="437.7" font-size="8.5" text-anchor="start" fill="#495057" font-weight="700" class="">R4</text>
+</g>
+<g id="n-c_D2" class="part">
+<line x1="634" y1="522.2" x2="642.0" y2="548.8" stroke="#909296" stroke-width="2" data-net="n_B23"/>
+<line x1="648.0" y1="548.8" x2="656" y2="579.4" stroke="#909296" stroke-width="2" data-net="n_R2"/>
+<circle cx="645.0" cy="548.8" r="9.5" fill="#fa5252" stroke="#00000055" stroke-width="1.5" opacity=".95"/>
+<line x1="652.0" y1="542.0" x2="652.0" y2="555.6" stroke="#495057" stroke-width="1.6"/>
+<circle cx="642.0" cy="545.8" r="2.6" fill="#ffffff" opacity=".55"/>
+<circle cx="634" cy="522.2" r="2.6" fill="#909296"/>
+<circle cx="656" cy="579.4" r="2.6" fill="#909296"/>
+<text x="627.0" y="526.2" font-size="11" text-anchor="end" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">+</text>
+<text x="627.0" y="526.2" font-size="11" text-anchor="end" fill="#c92a2a" font-weight="700" class="">+</text>
+</g>
+<g id="n-c_D1" class="part">
+<line x1="700" y1="522.2" x2="708.0" y2="548.8" stroke="#909296" stroke-width="2" data-net="n_B26"/>
+<line x1="714.0" y1="548.8" x2="722" y2="579.4" stroke="#909296" stroke-width="2" data-net="n_R2"/>
+<circle cx="711.0" cy="548.8" r="9.5" fill="#40c057" stroke="#00000055" stroke-width="1.5" opacity=".95"/>
+<line x1="718.0" y1="542.0" x2="718.0" y2="555.6" stroke="#495057" stroke-width="1.6"/>
+<circle cx="708.0" cy="545.8" r="2.6" fill="#ffffff" opacity=".55"/>
+<circle cx="700" cy="522.2" r="2.6" fill="#909296"/>
+<circle cx="722" cy="579.4" r="2.6" fill="#909296"/>
+<text x="693.0" y="526.2" font-size="11" text-anchor="end" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">+</text>
+<text x="693.0" y="526.2" font-size="11" text-anchor="end" fill="#c92a2a" font-weight="700" class="">+</text>
+</g>
+<g id="n-c_D3" class="part">
+<line x1="766" y1="522.2" x2="774.0" y2="548.8" stroke="#909296" stroke-width="2" data-net="n_B29"/>
+<line x1="780.0" y1="548.8" x2="788" y2="579.4" stroke="#909296" stroke-width="2" data-net="n_R2"/>
+<circle cx="777.0" cy="548.8" r="9.5" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1.5" opacity=".95"/>
+<line x1="784.0" y1="542.0" x2="784.0" y2="555.6" stroke="#495057" stroke-width="1.6"/>
+<circle cx="774.0" cy="545.8" r="2.6" fill="#ffffff" opacity=".55"/>
+<circle cx="766" cy="522.2" r="2.6" fill="#909296"/>
+<circle cx="788" cy="579.4" r="2.6" fill="#909296"/>
+<text x="759.0" y="526.2" font-size="11" text-anchor="end" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">+</text>
+<text x="759.0" y="526.2" font-size="11" text-anchor="end" fill="#c92a2a" font-weight="700" class="">+</text>
+</g>
+<g id="n-c_D4" class="part">
+<line x1="1338" y1="456.2" x2="1370.0" y2="456.2" stroke="#909296" stroke-width="2" data-net="n_B55"/>
+<line x1="1394.0" y1="456.2" x2="1426" y2="456.2" stroke="#909296" stroke-width="2" data-net="n_R2"/>
+<rect x="1369.0" y="451.2" width="26.0" height="10.0" fill="#212529" stroke="#000" rx="2"/>
+<rect x="1371.0" y="451.2" width="4.0" height="10.0" fill="#dee2e6"/>
+<circle cx="1338" cy="456.2" r="2.6" fill="#909296"/>
+<circle cx="1426" cy="456.2" r="2.6" fill="#909296"/>
+<text x="1382.0" y="475.2" font-size="8.5" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">D4 1N4007</text>
+<text x="1382.0" y="475.2" font-size="8.5" text-anchor="middle" fill="#495057" font-weight="700" class="">D4 1N4007</text>
+<text x="1382.0" y="486.2" font-size="7.5" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="normal">franja en F55</text>
+<text x="1382.0" y="486.2" font-size="7.5" text-anchor="middle" fill="#868e96" font-weight="normal" class="">franja en F55</text>
+</g>
+<g id="n-c_Q1" class="part">
+<path d="M803.0,503.2 L861.0,503.2 L861.0,491.2 Q861.0,479.2 832.0,479.2 Q803.0,479.2 803.0,491.2 Z" fill="#212529" stroke="#000"/>
+<rect class="pin used" data-net="n_R2" data-h="Q1 E (H31)" x="806.5" y="496.7" width="7" height="7" rx="1.5" fill="#adb5bd"/>
+<text x="810.0" y="494.2" font-size="7.5" text-anchor="middle" fill="#f8f9fa" font-weight="700" class="">E</text>
+<rect class="pin used" data-net="n_B32" data-h="Q1 B (H32)" x="828.5" y="496.7" width="7" height="7" rx="1.5" fill="#adb5bd"/>
+<text x="832.0" y="494.2" font-size="7.5" text-anchor="middle" fill="#f8f9fa" font-weight="700" class="">B</text>
+<rect class="pin used" data-net="n_B33" data-h="Q1 C (H33)" x="850.5" y="496.7" width="7" height="7" rx="1.5" fill="#adb5bd"/>
+<text x="854.0" y="494.2" font-size="7.5" text-anchor="middle" fill="#f8f9fa" font-weight="700" class="">C</text>
+<text x="867.0" y="504.2" font-size="9" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="700">Q1 2N2222A</text>
+<text x="867.0" y="504.2" font-size="9" text-anchor="start" fill="#495057" font-weight="700" class="">Q1 2N2222A</text>
+<text x="867.0" y="515.2" font-size="7.5" text-anchor="start" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="normal">cara plana hacia la fila J</text>
+<text x="867.0" y="515.2" font-size="7.5" text-anchor="start" fill="#868e96" font-weight="normal" class="">cara plana hacia la fila J</text>
+</g>
+<g id="n-c_S1" class="part">
+<rect x="891.0" y="405.2" width="58.0" height="58.0" fill="#343a40" stroke="#111" rx="3"/>
+<circle cx="920.0" cy="434.2" r="9" fill="#868e96" stroke="#212529"/>
+<rect x="895" y="409.2" width="6" height="6" fill="#ced4da"/>
+<rect x="895" y="453.2" width="6" height="6" fill="#ced4da"/>
+<rect x="939" y="409.2" width="6" height="6" fill="#ced4da"/>
+<rect x="939" y="453.2" width="6" height="6" fill="#ced4da"/>
+<text x="920.0" y="478.2" font-size="9" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="600">S1 pulsador</text>
+<text x="920.0" y="478.2" font-size="9" text-anchor="middle" fill="#495057" font-weight="600" class="">S1 pulsador</text>
+</g>
+<g id="n-c_U2" class="part">
+<rect x="995.9" y="404.2" width="90.2" height="102.6" fill="#6741d9" stroke="#3b1f8f" rx="4" opacity=".93"/>
+<rect x="1033.0" y="457.5" width="16.0" height="16.0" fill="#f1f3f5" stroke="#adb5bd" rx="2"/>
+<rect class="pin used" data-net="n_T40" data-h="HTU21D SDA (E40)" x="1004" y="408.2" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1008.0" y="427.2" font-size="6.8" text-anchor="middle" fill="#e5dbff" font-weight="600" class="">SDA</text>
+<rect class="pin used" data-net="n_T41" data-h="HTU21D SCL (E41)" x="1026" y="408.2" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1030.0" y="427.2" font-size="6.8" text-anchor="middle" fill="#e5dbff" font-weight="600" class="">SCL</text>
+<rect class="pin used" data-net="n_R2" data-h="HTU21D GND (E42)" x="1048" y="408.2" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1052.0" y="427.2" font-size="6.8" text-anchor="middle" fill="#e5dbff" font-weight="600" class="">GND</text>
+<rect class="pin used" data-net="n_R1" data-h="HTU21D VIN (E43)" x="1070" y="408.2" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1074.0" y="427.2" font-size="6.8" text-anchor="middle" fill="#e5dbff" font-weight="600" class="">VIN</text>
+<text x="1041.0" y="520.8" font-size="9" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="600">U2 HTU21D</text>
+<text x="1041.0" y="520.8" font-size="9" text-anchor="middle" fill="#495057" font-weight="600" class="">U2 HTU21D</text>
+</g>
+<g id="n-c_U3" class="part">
+<rect x="1102.6" y="55.0" width="96.8" height="62.0" fill="#1864ab" stroke="#0b3d6e" rx="4"/>
+<rect class="pin used" data-net="n_U1_GPIO4" data-h="YL-38 AO" x="1114" y="113" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1118.0" y="110.0" font-size="7.5" text-anchor="middle" fill="#d0ebff" font-weight="600" class="">AO</text>
+<rect class="pin used" data-net="n_U3_DO" data-h="YL-38 DO" x="1136" y="113" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1140.0" y="110.0" font-size="7.5" text-anchor="middle" fill="#d0ebff" font-weight="600" class="">DO</text>
+<rect class="pin used" data-net="n_R2" data-h="YL-38 GND" x="1158" y="113" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1162.0" y="110.0" font-size="7.5" text-anchor="middle" fill="#d0ebff" font-weight="600" class="">GND</text>
+<rect class="pin used" data-net="n_R1" data-h="YL-38 VCC" x="1180" y="113" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1184.0" y="110.0" font-size="7.5" text-anchor="middle" fill="#d0ebff" font-weight="600" class="">VCC</text>
+<text x="1151.0" y="83.0" font-size="9.5" text-anchor="middle" fill="#ffffff" font-weight="600" class="">U3 YL-38</text>
+<rect x="1179.4" y="60.0" width="14" height="14" fill="#4dabf7" stroke="#0b3d6e" rx="2"/>
+<path d="M1199.4,82.0 C1219.4,82.0 1219.0,82.0 1239.0,82.0" stroke="#e03131" stroke-width="2" fill="none"/>
+<path d="M1199.4,90.0 C1219.4,90.0 1219.0,90.0 1239.0,90.0" stroke="#212529" stroke-width="2" fill="none"/>
+<rect x="1239.0" y="74.0" width="26.0" height="24.0" fill="#2f9e44" stroke="#1b5e20" rx="3"/>
+<rect x="1265.0" y="76.0" width="128.0" height="6.0" fill="#ced4da" stroke="#868e96" rx="2"/>
+<rect x="1265.0" y="90.0" width="128.0" height="6.0" fill="#ced4da" stroke="#868e96" rx="2"/>
+<text x="1324.0" y="63.0" font-size="8.5" text-anchor="middle" fill="#495057" font-weight="normal" class="">YL-69 (sonda, va enterrada en el sustrato)</text>
+<text x="1151.0" y="46.0" font-size="7.5" text-anchor="middle" fill="#868e96" font-weight="normal" class="">conéctalo por nombre de pin</text>
+</g>
+<g id="n-c_K1" class="part">
+<rect x="1003.6" y="675.4" width="171.6" height="123.0" fill="#1971c2" stroke="#0b3d6e" rx="4"/>
+<rect x="1056.4" y="715.4" width="96.8" height="71.0" fill="#228be6" stroke="#0b3d6e" rx="3"/>
+<text x="1104.8" y="759.9" font-size="7.5" text-anchor="middle" fill="#e7f5ff" font-weight="normal" class="">SRD-05VDC</text>
+<rect class="pin used" data-net="n_B33" data-h="Relé IN" x="1026" y="681.4" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1030.0" y="700.4" font-size="7" text-anchor="middle" fill="#e7f5ff" font-weight="600" class="">IN</text>
+<rect class="pin used" data-net="n_R2" data-h="Relé GND" x="1048" y="681.4" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1052.0" y="700.4" font-size="7" text-anchor="middle" fill="#e7f5ff" font-weight="600" class="">GND</text>
+<rect class="pin used" data-net="n_R4" data-h="Relé VCC" x="1070" y="681.4" width="8" height="8" rx="1.5" fill="#f2c14e"/>
+<text x="1074.0" y="700.4" font-size="7" text-anchor="middle" fill="#e7f5ff" font-weight="600" class="">VCC</text>
+<rect x="1173.2" y="708.4" width="20.0" height="18.0" fill="#2f9e44" stroke="#1b5e20" rx="2"/>
+<circle cx="1183.2" cy="717.4" r="5" fill="#adb5bd" stroke="#495057" data-net="n_K1_NC" class="pin used" data-h="Relé NC"/>
+<text x="1167.2" y="720.4" font-size="7.5" text-anchor="end" fill="#e7f5ff" font-weight="600" class="">NC</text>
+<rect x="1173.2" y="734.4" width="20.0" height="18.0" fill="#2f9e44" stroke="#1b5e20" rx="2"/>
+<circle cx="1183.2" cy="743.4" r="5" fill="#adb5bd" stroke="#495057" data-net="n_R4" class="pin used" data-h="Relé COM"/>
+<text x="1167.2" y="746.4" font-size="7.5" text-anchor="end" fill="#e7f5ff" font-weight="600" class="">COM</text>
+<rect x="1173.2" y="760.4" width="20.0" height="18.0" fill="#2f9e44" stroke="#1b5e20" rx="2"/>
+<circle cx="1183.2" cy="769.4" r="5" fill="#adb5bd" stroke="#495057" data-net="n_B55" class="pin used" data-h="Relé NO"/>
+<text x="1167.2" y="772.4" font-size="7.5" text-anchor="end" fill="#e7f5ff" font-weight="600" class="">NO</text>
+<text x="1089.4" y="817.4" font-size="9.5" text-anchor="middle" fill="#495057" font-weight="600" class="">K1 relé 5 V (se activa con nivel bajo)</text>
+<text x="1089.4" y="831.4" font-size="8" text-anchor="middle" fill="#868e96" font-weight="normal" class="">NO = tornillo del lado del LED rojo · COM = el del medio</text>
+</g>
+<g id="n-c_M1" class="part">
+<rect x="1381.0" y="767.4" width="68.0" height="68.0" fill="#343a40" stroke="#111" rx="8"/>
+<circle cx="1415.0" cy="801.4" r="28" fill="#495057"/>
+<ellipse cx="1415.0" cy="787.4" rx="7" ry="13" fill="#868e96" transform="rotate(0 1415.0 801.4)"/>
+<ellipse cx="1415.0" cy="787.4" rx="7" ry="13" fill="#868e96" transform="rotate(72 1415.0 801.4)"/>
+<ellipse cx="1415.0" cy="787.4" rx="7" ry="13" fill="#868e96" transform="rotate(144 1415.0 801.4)"/>
+<ellipse cx="1415.0" cy="787.4" rx="7" ry="13" fill="#868e96" transform="rotate(216 1415.0 801.4)"/>
+<ellipse cx="1415.0" cy="787.4" rx="7" ry="13" fill="#868e96" transform="rotate(288 1415.0 801.4)"/>
+<circle cx="1415.0" cy="801.4" r="8" fill="#212529"/>
+<text x="1457.0" y="804.4" font-size="9.5" text-anchor="start" fill="#495057" font-weight="600" class="">M1 ventilador 5 V</text>
+</g>
+<g id="n-c_w_33" class="wire" data-net="n_R1" data-h="3V3 del Heltec (J3) al riel +3V3">
+<path d="M216,324.2 L216,267.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M216,324.2 L216,267.0" fill="none" stroke="#e03131" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="212.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e03131" stroke-width="1.2"/>
+<rect x="212.4" y="263.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e03131" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_gb" class="wire" data-net="n_R2" data-h="GND del Heltec (J2) al riel GND de abajo">
+<path d="M194,544.2 L194,579.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194,544.2 L194,579.4" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="190.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="190.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_5" class="wire" data-net="n_R4" data-h="5V del Heltec (J2) al riel +5V">
+<path d="M216,544.2 L216,601.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M216,544.2 L216,601.4" fill="none" stroke="#e8590c" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="212.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e8590c" stroke-width="1.2"/>
+<rect x="212.4" y="597.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e8590c" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_gp" class="wire" data-net="n_R2" data-h="Puente de tierra: riel GND de abajo → riel GND de arriba">
+<path d="M1492,579.4 L1492,289.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1492,579.4 L1492,289.0" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1488.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="1488.4" y="285.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_htv" class="wire" data-net="n_R1" data-h="VIN del HTU21D a +3V3">
+<path d="M1074,324.2 L1074,267.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1074,324.2 L1074,267.0" fill="none" stroke="#e03131" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1070.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e03131" stroke-width="1.2"/>
+<rect x="1070.4" y="263.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e03131" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_htg" class="wire" data-net="n_R2" data-h="GND del HTU21D a GND">
+<path d="M1052,324.2 L1052,289.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1052,324.2 L1052,289.0" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1048.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="1048.4" y="285.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_s1g" class="wire" data-net="n_R2" data-h="Pata derecha del pulsador a GND (por abajo)">
+<path d="M942,544.2 L942,579.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M942,544.2 L942,579.4" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="938.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="938.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_g7" class="wire" data-net="n_T23" data-h="GPIO7 → R2 (LED rojo)">
+<path d="M568.0,324.2 L568.0,236.0 Q568.0,229.0 575.0,229.0 L627.0,229.0 Q634.0,229.0 634.0,236.0 L634.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.0,324.2 L568.0,236.0 Q568.0,229.0 575.0,229.0 L627.0,229.0 Q634.0,229.0 634.0,236.0 L634.0,324.2" fill="none" stroke="#e64980" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="564.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e64980" stroke-width="1.2"/>
+<rect x="630.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e64980" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_g6" class="wire" data-net="n_T26" data-h="GPIO6 → R1 (LED verde)">
+<path d="M546.0,324.2 L546.0,225.0 Q546.0,218.0 553.0,218.0 L693.0,218.0 Q700.0,218.0 700.0,225.0 L700.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M546.0,324.2 L546.0,225.0 Q546.0,218.0 553.0,218.0 L693.0,218.0 Q700.0,218.0 700.0,225.0 L700.0,324.2" fill="none" stroke="#2b8a3e" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="542.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#2b8a3e" stroke-width="1.2"/>
+<rect x="696.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#2b8a3e" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_g5" class="wire" data-net="n_T29" data-h="GPIO5 → R3a/R3b (LED blanco)">
+<path d="M524.0,324.2 L524.0,214.0 Q524.0,207.0 531.0,207.0 L759.0,207.0 Q766.0,207.0 766.0,214.0 L766.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M524.0,324.2 L524.0,214.0 Q524.0,207.0 531.0,207.0 L759.0,207.0 Q766.0,207.0 766.0,214.0 L766.0,324.2" fill="none" stroke="#7048e8" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="520.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#7048e8" stroke-width="1.2"/>
+<rect x="762.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#7048e8" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_g3" class="wire" data-net="n_T32" data-h="GPIO3 → columna 32 (señal del relé)">
+<path d="M480.0,324.2 L480.0,203.0 Q480.0,196.0 487.0,196.0 L825.0,196.0 Q832.0,196.0 832.0,203.0 L832.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M480.0,324.2 L480.0,203.0 Q480.0,196.0 487.0,196.0 L825.0,196.0 Q832.0,196.0 832.0,203.0 L832.0,324.2" fill="none" stroke="#8d5524" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="476.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#8d5524" stroke-width="1.2"/>
+<rect x="828.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#8d5524" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_g2" class="wire" data-net="n_B35" data-h="GPIO2 → pulsador">
+<path d="M458.0,324.2 L458.0,192.0 Q458.0,185.0 465.0,185.0 L891.0,185.0 Q898.0,185.0 898.0,192.0 L898.0,324.2" fill="none" stroke="#5c5f66" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M458.0,324.2 L458.0,192.0 Q458.0,185.0 465.0,185.0 L891.0,185.0 Q898.0,185.0 898.0,192.0 L898.0,324.2" fill="none" stroke="#adb5bd" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="454.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#adb5bd" stroke-width="1.2"/>
+<rect x="894.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#adb5bd" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_sda" class="wire" data-net="n_T40" data-h="GPIO41 (SDA) → SDA del HTU21D">
+<path d="M348.0,324.2 L348.0,181.0 Q348.0,174.0 355.0,174.0 L1001.0,174.0 Q1008.0,174.0 1008.0,181.0 L1008.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M348.0,324.2 L348.0,181.0 Q348.0,174.0 355.0,174.0 L1001.0,174.0 Q1008.0,174.0 1008.0,181.0 L1008.0,324.2" fill="none" stroke="#1971c2" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="344.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#1971c2" stroke-width="1.2"/>
+<rect x="1004.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#1971c2" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_scl" class="wire" data-net="n_T41" data-h="GPIO42 (SCL) → SCL del HTU21D">
+<path d="M326.0,324.2 L326.0,170.0 Q326.0,163.0 333.0,163.0 L1023.0,163.0 Q1030.0,163.0 1030.0,170.0 L1030.0,324.2" fill="none" stroke="#5c5f66" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M326.0,324.2 L326.0,170.0 Q326.0,163.0 333.0,163.0 L1023.0,163.0 Q1030.0,163.0 1030.0,170.0 L1030.0,324.2" fill="none" stroke="#fcc419" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="322.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#fcc419" stroke-width="1.2"/>
+<rect x="1026.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#fcc419" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_ao" class="wire" data-net="n_U1_GPIO4" data-h="AO del YL-38 → GPIO4 (directo al hueco A17)">
+<path d="M1118.0,117.0 L1118.0,145.0 Q1118.0,152.0 1111.0,152.0 L509.0,152.0 Q502.0,152.0 502.0,159.0 L502.0,324.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1118.0,117.0 L1118.0,145.0 Q1118.0,152.0 1111.0,152.0 L509.0,152.0 Q502.0,152.0 502.0,159.0 L502.0,324.2" fill="none" stroke="#0c8599" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="498.4" y="320.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#0c8599" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_yv" class="wire" data-net="n_R1" data-h="VCC del YL-38 → riel +3V3">
+<path d="M1184,117 C1184,199.5 1184,184.5 1184,267.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1184,117 C1184,199.5 1184,184.5 1184,267.0" fill="none" stroke="#e03131" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1180.4" y="263.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e03131" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_yg" class="wire" data-net="n_R2" data-h="GND del YL-38 → riel GND">
+<path d="M1162,117 C1162,211.60000000000002 1162,194.39999999999998 1162,289.0" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1162,117 C1162,211.60000000000002 1162,194.39999999999998 1162,289.0" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1158.4" y="285.4" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_qe" class="wire" data-net="n_R2" data-h="Emisor de Q1 (columna 31) → riel GND">
+<path d="M810,544.2 L810,579.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M810,544.2 L810,579.4" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="806.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="806.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_kin" class="wire" data-net="n_B33" data-h="IN del relé → colector de Q1 (columna 33)">
+<path d="M1030.0,685.4 L1030.0,656.4 Q1030.0,649.4 1023.0,649.4 L861.0,649.4 Q854.0,649.4 854.0,642.4 L854.0,544.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030.0,685.4 L1030.0,656.4 Q1030.0,649.4 1023.0,649.4 L861.0,649.4 Q854.0,649.4 854.0,642.4 L854.0,544.2" fill="none" stroke="#8d5524" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="850.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#8d5524" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_kg" class="wire" data-net="n_R2" data-h="GND del relé → riel GND">
+<path d="M1052,685.4 C1052,627.1 1052,637.6999999999999 1052,579.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1052,685.4 C1052,627.1 1052,637.6999999999999 1052,579.4" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1048.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_kv" class="wire" data-net="n_R4" data-h="VCC del relé → riel +5V">
+<path d="M1074,685.4 C1074,639.1999999999999 1074,647.6 1074,601.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1074,685.4 C1074,639.1999999999999 1074,647.6 1074,601.4" fill="none" stroke="#e8590c" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1070.4" y="597.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e8590c" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_com" class="wire" data-net="n_R4" data-h="Bornera COM del relé (tornillo del medio) → riel +5V">
+<path d="M1193.2,743.4 L1221.0,743.4 Q1228.0,743.4 1228.0,736.4 L1228.0,601.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1193.2,743.4 L1221.0,743.4 Q1228.0,743.4 1228.0,736.4 L1228.0,601.4" fill="none" stroke="#e8590c" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1224.4" y="597.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#e8590c" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_no" class="wire" data-net="n_B55" data-h="Bornera NO del relé (tornillo del lado del LED rojo) → J55">
+<path d="M1193.2,769.4 L1331.0,769.4 Q1338.0,769.4 1338.0,762.4 L1338.0,544.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1193.2,769.4 L1331.0,769.4 Q1338.0,769.4 1338.0,762.4 L1338.0,544.2" fill="none" stroke="#c92a2a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1334.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#c92a2a" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_mr" class="wire" data-net="n_B55" data-h="Cable rojo (+) del ventilador → H55">
+<path d="M1405.0,767.4 C1405.0,633.8 1368,526.2 1338,500.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1405.0,767.4 C1405.0,633.8 1368,526.2 1338,500.2" fill="none" stroke="#ff6b6b" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1334.4" y="496.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#ff6b6b" stroke-width="1.2"/>
+</g>
+<g id="n-c_d_mn" class="wire" data-net="n_R2" data-h="Cable negro (−) del ventilador → H59">
+<path d="M1425.0,767.4 C1425.0,633.8 1456,526.2 1426,500.2" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1425.0,767.4 C1425.0,633.8 1456,526.2 1426,500.2" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1422.4" y="496.59999999999997" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<g id="n-c_w_mg" class="wire" data-net="n_R2" data-h="Columna 59 (− del ventilador) → riel GND">
+<path d="M1426,544.2 L1426,579.4" fill="none" stroke="#00000066" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1426,544.2 L1426,579.4" fill="none" stroke="#212529" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1422.4" y="540.6" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+<rect x="1422.4" y="575.8" width="7.2" height="7.2" rx="1.2" fill="#343a40" stroke="#212529" stroke-width="1.2"/>
+</g>
+<text x="645.0" y="572.8" font-size="9" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="600">D2 rojo</text>
+<text x="645.0" y="572.8" font-size="9" text-anchor="middle" fill="#495057" font-weight="600" class="">D2 rojo</text>
+<text x="711.0" y="572.8" font-size="9" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="600">D1 verde</text>
+<text x="711.0" y="572.8" font-size="9" text-anchor="middle" fill="#495057" font-weight="600" class="">D1 verde</text>
+<text x="777.0" y="572.8" font-size="9" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" font-weight="600">D3 blanco</text>
+<text x="777.0" y="572.8" font-size="9" text-anchor="middle" fill="#495057" font-weight="600" class="">D3 blanco</text>
+</svg>
