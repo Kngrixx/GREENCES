@@ -1,0 +1,347 @@
+{
+  "info": {
+    "name": "GreenCES API",
+    "description": "Backend del Examen 3 (GreenCES). Primero: 'Registrar usuario' y luego 'Iniciar sesion' (guarda el token solo). Las rutas de '3. Frontend' usan ese token.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000/api"
+    },
+    {
+      "key": "token",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "0. Salud",
+      "item": [
+        {
+          "name": "Servidor",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "health"
+              ]
+            },
+            "description": "",
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        },
+        {
+          "name": "Base de datos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health/db",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "health",
+                "db"
+              ]
+            },
+            "description": "",
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "1. Usuarios",
+      "item": [
+        {
+          "name": "Registrar usuario",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/auth/registro",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "auth",
+                "registro"
+              ]
+            },
+            "description": "Crea un usuario de la plataforma (la guia pide crearlos desde Postman). 201 creado, 409 si el email o la identificacion ya existen.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre_completo\": \"Alejandro Chaux\",\n  \"email\": \"alejandro@greences.com\",\n  \"password\": \"cambia-esta-clave\",\n  \"identificacion\": \"1000000000\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        },
+        {
+          "name": "Iniciar sesion",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/auth/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ]
+            },
+            "description": "Devuelve access_token. El script de Tests lo guarda en la variable {{token}} de la coleccion.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"alejandro@greences.com\",\n  \"password\": \"cambia-esta-clave\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "auth": {
+              "type": "noauth"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Login correcto (200)', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "const datos = pm.response.json();",
+                  "if (datos.access_token) {",
+                  "    pm.collectionVariables.set('token', datos.access_token);",
+                  "    console.log('Token guardado en {{token}}');",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mi perfil (con token)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/auth/perfil",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "auth",
+                "perfil"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. ESP32 (sin token)",
+      "item": [
+        {
+          "name": "Enviar lectura",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/lecturas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas"
+              ]
+            },
+            "description": "Lo mismo que envia el ESP32 cada 15 s. 201 guardada, 400 con la lista de errores si algo no es valido.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sistema\": \"ON\",\n  \"temperatura\": 36.4,\n  \"humedad_ambiente\": 54.2,\n  \"humedad_suelo\": 27.5,\n  \"led_verde_pwm\": 100,\n  \"led_rojo\": 0,\n  \"led_blanco\": 0,\n  \"ventilador\": 1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        },
+        {
+          "name": "Enviar lectura invalida (prueba 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/lecturas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas"
+              ]
+            },
+            "description": "Debe responder 400 con los errores de validacion.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sistema\": \"ON\",\n  \"temperatura\": 36.4,\n  \"humedad_ambiente\": 54.2,\n  \"humedad_suelo\": 140,\n  \"led_verde_pwm\": 50,\n  \"led_rojo\": 0,\n  \"led_blanco\": 0,\n  \"ventilador\": 1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Frontend (con token)",
+      "item": [
+        {
+          "name": "Ultima lectura (Monitoreo)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/lecturas/ultima",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas",
+                "ultima"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Maximos y minimos (Dashboard)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/lecturas/resumen",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas",
+                "resumen"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Temperatura ultimos 5 minutos (Dashboard)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/lecturas/temperatura?minutos=5",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas",
+                "temperatura"
+              ],
+              "query": [
+                {
+                  "key": "minutos",
+                  "value": "5"
+                }
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Historial",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/lecturas?limite=20",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "lecturas"
+              ],
+              "query": [
+                {
+                  "key": "limite",
+                  "value": "20"
+                }
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    }
+  ]
+}

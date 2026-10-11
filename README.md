@@ -111,14 +111,24 @@ Los tiempos (parpadeo de 500 ms y envío cada 15 s) se miden con `time.ticks_ms(
 
 Para probar el envío antes de tener el backend: `python esp32/servidor_prueba.py` en el computador que recibe. Más detalles en [`esp32/README.md`](esp32/README.md).
 
-### Backend y frontend
+### Backend
 
-Se completan en los Pasos 2 y 3.
+1. Crear la base de datos `greences` en pgAdmin.
+2. En `backend/`: `python -m venv .venv`, `.venv\Scripts\activate` y `pip install -r requirements.txt`.
+3. Copiar `backend/.env.example` como `backend/.env` y poner la contraseña de PostgreSQL.
+4. `flask db upgrade` (crea las tablas) y `python run.py` (servidor en el puerto 5000).
+5. Crear el usuario desde Postman con la colección `backend/postman/GreenCES.postman_collection.json`.
+
+Más detalles y la lista de endpoints en [`backend/README.md`](backend/README.md).
+
+### Frontend
+
+Se completa en el Paso 3.
 
 ## Avance
 
 - [x] Paso 0 — Estructura del repositorio
 - [x] Paso 1 — ESP32: clases de hardware, reglas de control, JSON, WiFi y envío
-- [ ] Paso 2 — Backend: base de datos, modelos, login con JWT y endpoints
+- [x] Paso 2 — Backend: base de datos, modelos, login con JWT y endpoints
 - [ ] Paso 3 — Frontend: login, Home, Monitoreo y Dashboard
 - [ ] Paso 4 — Prueba en dos computadores y entrega
