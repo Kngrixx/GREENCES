@@ -33,25 +33,28 @@ Placa: Heltec WiFi LoRa 32 V3 (ESP32-S3).
 
 | Componente | Pin | Clase | Notas |
 | --- | --- | --- | --- |
-| Pulsador | GPIO5 | `EntradaDigital` | `PULL_UP`: presionado = 0 |
+| Pulsador | GPIO2 | `EntradaDigital` | `PULL_UP`: presionado = 0 |
 | LED verde | GPIO6 | `SalidaPWM` | Intensidad 0, 30, 70 o 100 % |
 | LED rojo | GPIO7 | `SalidaDigital` | Encendido solo si T ≥ 40 °C |
-| LED blanco | GPIO2 | `SalidaDigital` | Fijo o parpadeando cada 500 ms |
-| Relé del ventilador | GPIO3 | `SalidaDigital` | Verificar si el módulo se activa con 0 (LOW) |
+| LED blanco | GPIO5 | `SalidaDigital` | Fijo o parpadeando cada 500 ms |
+| Relé del ventilador | GPIO3 | `SalidaDigital` | A través del transistor Q1 (2N2222A): 1 = ventilador encendido |
 | YL-69 (salida AO) | GPIO4 | `SenalAnaloga` | ADC de 12 bits (0–4095) |
 | HTU21D SDA / SCL | GPIO41 / GPIO42 | `HTU21D` | Bus I2C, dirección 0x40 |
 
 ¿Por qué estos pines?
 
 - **GPIO1–GPIO7** son los pines libres que marca el diagrama de clase de la Heltec V3. Los demás los ocupan la pantalla OLED (17/18), el módulo LoRa (8–14) y el USB (19/20).
+- **Los tres LEDs van en GPIO5, GPIO6 y GPIO7**, que son pines vecinos de la placa. Así quedan juntos en la protoboard.
 - **El YL-69 va en GPIO4** porque ese pin pertenece al ADC1. El ADC2 deja de funcionar cuando el WiFi está encendido.
 - **El HTU21D usa 41/42** porque 17/18 ya los usa la pantalla.
+
+El módulo de relé se activa con nivel bajo y es de 5 V (transistor PNP 2TY), así que los 3,3 V del ESP32 no lo apagan del todo. Por eso el GPIO3 lo maneja a través de un transistor NPN 2N2222A con 1 kΩ en la base: GPIO3 = 1 → Q1 conduce → IN a 0 V → relé encendido.
 
 Alimentación: los sensores van a 3.3 V. Si el YL-69 se conecta a 5 V, su salida puede superar los 3.3 V que soporta la entrada analógica. El relé va a 5 V, con GND común con el ESP32.
 
 ## Datos que envía el ESP32 (JSON)
 
-El mismo objeto se imprime en consola y se envía al backend. Los nombres de las claves deben ser idénticos en el ESP32, el backend y el frontend.
+El mismo objeto se imprime en consola cada 2 s y se envía al backend cada 15 s con `POST /api/lecturas` (ruta sin token, como pide la NOTA 4 de la guía). Los nombres de las claves deben ser idénticos en el ESP32, el backend y el frontend.
 
 ```json
 {
@@ -69,8 +72,8 @@ El mismo objeto se imprime en consola y se envía al backend. Los nombres de las
 | Clave | Valores | Significado |
 | --- | --- | --- |
 | `sistema` | `"ON"` / `"OFF"` | Estado que controla el pulsador |
-| `temperatura` | °C | HTU21D |
-| `humedad_ambiente` | 0–100 % | HTU21D |
+| `temperatura` | °C o `null` | HTU21D (`null` si el sensor no responde) |
+| `humedad_ambiente` | 0–100 % o `null` | HTU21D (`null` si el sensor no responde) |
 | `humedad_suelo` | 0–100 % | YL-69 calibrado (seco = 0 %, sumergido = 100 %) |
 | `led_verde_pwm` | 0, 30, 70, 100 | Intensidad del LED verde en % |
 | `led_rojo` | 0 / 1 | Apagado / encendido |
@@ -100,16 +103,22 @@ Los tiempos (parpadeo de 500 ms y envío cada 15 s) se miden con `time.ticks_ms(
 
 ## Cómo ejecutar
 
-Se completa en cada paso:
+### ESP32
 
-- **ESP32:** Paso 1.
-- **Backend:** Paso 2.
-- **Frontend:** Paso 3.
+1. Copiar `esp32/secretos_ejemplo.py` como `esp32/secretos.py` y llenar la red WiFi (2,4 GHz) y la IP del computador que corre el backend.
+2. Con Thonny, subir a la placa `main.py`, `config.py`, `hardware.py`, `htu21d.py`, `reglas.py`, `comunicacion.py` y `secretos.py`.
+3. Reiniciar la placa: arranca APAGADA; el pulsador la enciende y la apaga.
+
+Para probar el envío antes de tener el backend: `python esp32/servidor_prueba.py` en el computador que recibe. Más detalles en [`esp32/README.md`](esp32/README.md).
+
+### Backend y frontend
+
+Se completan en los Pasos 2 y 3.
 
 ## Avance
 
 - [x] Paso 0 — Estructura del repositorio
-- [ ] Paso 1 — ESP32: clases de hardware, reglas de control, JSON, WiFi y envío
+- [x] Paso 1 — ESP32: clases de hardware, reglas de control, JSON, WiFi y envío
 - [ ] Paso 2 — Backend: base de datos, modelos, login con JWT y endpoints
 - [ ] Paso 3 — Frontend: login, Home, Monitoreo y Dashboard
 - [ ] Paso 4 — Prueba en dos computadores y entrega
