@@ -7,7 +7,7 @@ Programa en MicroPython para la Heltec WiFi LoRa 32 V3 (ESP32-S3). Lee los senso
 | Archivo | Va a la placa | Qué hace |
 | --- | --- | --- |
 | `main.py` | Sí | Programa principal: clase `GreenCES` con el estado ON/OFF, el ciclo sin `sleep`, el JSON y el envío. |
-| `config.py` | Sí | Pines, calibración del YL-69, umbrales de las reglas, tiempos, ruta del backend y modo simulación. |
+| `config.py` | Sí | Pines, calibración del YL-69, umbrales de las reglas, tiempos, ruta del backend y modo simulado o real del HTU21D. |
 | `hardware.py` | Sí | Clases del curso: `SalidaDigital`, `SalidaPWM`, `EntradaDigital`, `SenalAnaloga`. |
 | `htu21d.py` | Sí | Clase `HTU21D`: mide por etapas (sin bloquear) y verifica el CRC. |
 | `reglas.py` | Sí | Reglas de control como funciones puras (LED verde, LED rojo, ventilador con histéresis, LED blanco). |
@@ -40,6 +40,21 @@ El servidor muestra la IP que va en `secretos.SERVIDOR` e imprime cada JSON que 
 
 `POST {SERVIDOR}/api/lecturas` con `Content-Type: application/json` y el mismo JSON que se imprime en consola (ver el README principal). Esta ruta no lleva token (NOTA 4 de la guía). Si el HTU21D no responde, `temperatura` y `humedad_ambiente` van en `null`.
 
-## Modo simulación
+## Modo simulado y modo real
 
-El HTU21D del montaje está dañado. Mientras llega el reemplazo, `config.SIMULAR_AMBIENTE = True` genera una temperatura y una humedad ambiente que suben y bajan (24 → 42 °C y 20 → 80 % en 30 s, y de vuelta en otros 30 s) para probar todas las reglas. **En la entrega final debe quedar en `False`.**
+El HTU21D del montaje (módulo GY-21) está dañado: le falta el regulador. Por eso `config.py` tiene un interruptor:
+
+| `SIMULAR_AMBIENTE` | Temperatura y humedad ambiente | Para qué |
+| --- | --- | --- |
+| `True` (actual) | Rampa simulada: 24 → 42 °C y 20 → 80 % en 30 s, y de vuelta en otros 30 s | Mostrar todas las reglas de control sin el sensor |
+| `False` | HTU21D real por I2C (dirección 0x40) | Funcionamiento con un sensor que sirva |
+
+El resto del programa es igual en los dos modos, y la humedad del suelo (YL-69) siempre es real.
+
+Para pasar al modo real:
+
+1. Conectar el sensor con la placa desconectada (VIN a 3.3 V, GND, SDA a GPIO41, SCL a GPIO42).
+2. Poner `SIMULAR_AMBIENTE = False` en `config.py` y subirlo a la placa.
+3. Reiniciar (Ctrl+D). La consola debe mostrar `HTU21D detectado en 0x40`.
+
+Si el sensor falla un momento (un cable flojo) o se conecta con el programa corriendo, la clase `HTU21D` lo vuelve a buscar cada 2 s y retoma las lecturas sola.

@@ -17,6 +17,7 @@ CMD_HUMEDAD = 0xF5            # medir humedad sin retener el bus I2C
 CMD_REINICIO = 0xFE
 ESPERA_TEMPERATURA_MS = 60    # la hoja de datos da maximo 50 ms
 ESPERA_HUMEDAD_MS = 20        # la hoja de datos da maximo 16 ms
+ESPERA_REINICIO_MS = 20       # tras el reinicio (0xFE) el sensor tarda maximo 15 ms en responder
 
 # Etapas de la medicion
 ESPERANDO = 0
@@ -71,8 +72,15 @@ class HTU21D:
         try:
             if self._etapa == ESPERANDO:
                 if transcurrido >= self._periodo_ms:
-                    if not self.disponible and not self._buscar():
-                        self._t_etapa = ahora          # se reintenta en el siguiente periodo
+                    if not self.disponible:
+                        # Se busca el sensor otra vez (fallo antes o se conecto despues de
+                        # arrancar). Si aparece, _buscar() lo reinicia y el sensor necesita
+                        # unos 15 ms antes de aceptar comandos: la medicion se programa
+                        # para ESPERA_REINICIO_MS despues, sin quedarse esperando.
+                        if self._buscar():
+                            self._t_etapa = time.ticks_add(ahora, ESPERA_REINICIO_MS - self._periodo_ms)
+                        else:
+                            self._t_etapa = ahora      # se reintenta en el siguiente periodo
                         return
                     self._i2c.writeto(DIRECCION, bytes([CMD_TEMPERATURA]))
                     self._etapa, self._t_etapa = MIDIENDO_T, ahora

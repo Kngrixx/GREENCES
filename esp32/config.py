@@ -42,11 +42,15 @@ RUTA_LECTURAS = "/api/lecturas"   # endpoint del backend que recibe el JSON (sin
 WIFI_REINTENTO_MS = 10000         # sin WiFi, se vuelve a intentar cada 10 s
 HTTP_TIMEOUT_S = 3                # espera maxima de la respuesta del servidor, en segundos
 
-# ---------------- Simulacion (mientras no haya HTU21D) ----------------
-# El HTU21D del montaje esta danado. Con SIMULAR_AMBIENTE = True, la temperatura
-# y la humedad ambiente se simulan con una rampa que sube y baja, para poder
-# probar todas las reglas de control. EN LA ENTREGA FINAL DEBE QUEDAR EN False
-# (cuando llegue el sensor nuevo, solo se cambia esta linea y se vuelve a subir config.py).
+# ---------------- Modo simulado o modo real del HTU21D ----------------
+# El HTU21D (modulo GY-21) del montaje esta danado: le falta el regulador.
+# Por eso el programa tiene dos modos; todo lo demas es igual en ambos:
+#   True  -> SIMULADO: la temperatura y la humedad ambiente salen de una rampa
+#            que sube y baja (valores de abajo) para mostrar todas las reglas.
+#   False -> REAL: se leen del HTU21D por I2C (direccion 0x40).
+# Con un sensor que funcione: conectarlo con la placa sin alimentacion, poner
+# False aqui, subir config.py y reiniciar (Ctrl+D). La consola debe decir
+# "HTU21D detectado en 0x40". La humedad del suelo (YL-69) siempre es real.
 SIMULAR_AMBIENTE = True
 SIM_T_MIN = 24          # grados C al inicio de la rampa
 SIM_T_MAX = 42          # grados C en el punto mas alto
