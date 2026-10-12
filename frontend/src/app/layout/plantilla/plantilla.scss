@@ -1,0 +1,137 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.barra {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--borde);
+}
+
+.barra__contenido {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 64px;
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+
+  strong {
+    color: var(--verde);
+  }
+}
+
+.marca__logo {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: var(--verde);
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 4px;
+  margin-left: 12px;
+}
+
+.menu__enlace {
+  position: relative;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: var(--texto-suave);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.15s, background-color 0.15s;
+
+  &:hover {
+    color: var(--texto);
+    background: var(--superficie-suave);
+  }
+
+  &.activo {
+    color: var(--verde);
+    background: var(--verde-claro);
+    font-weight: 600;
+  }
+}
+
+.sesion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.sesion__usuario {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--texto-suave);
+  font-weight: 500;
+}
+
+.sesion__salir,
+.sesion__entrar {
+  height: 36px;
+  padding: 0 14px;
+}
+
+.principal {
+  flex: 1;
+  padding-bottom: 48px;
+}
+
+.pie {
+  border-top: 1px solid var(--borde);
+  background: var(--superficie);
+  font-size: 13px;
+}
+
+.pie__contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 18px 0;
+}
+
+@media (max-width: 720px) {
+  .barra__contenido {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .menu {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+  .menu__enlace {
+    flex: 1;
+    text-align: center;
+  }
+
+  .sesion__usuario {
+    display: none;
+  }
+}

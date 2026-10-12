@@ -52,6 +52,8 @@ El módulo de relé se activa con nivel bajo y es de 5 V (transistor PNP 2TY), a
 
 Alimentación: los sensores van a 3.3 V. Si el YL-69 se conecta a 5 V, su salida puede superar los 3.3 V que soporta la entrada analógica. El relé va a 5 V, con GND común con el ESP32.
 
+El HTU21D del montaje está dañado (al módulo GY-21 le falta el regulador). El programa tiene un modo simulado y un modo real que se cambian con una línea de `esp32/config.py`; ver [`esp32/README.md`](esp32/README.md#modo-simulado-y-modo-real).
+
 ## Datos que envía el ESP32 (JSON)
 
 El mismo objeto se imprime en consola cada 2 s y se envía al backend cada 15 s con `POST /api/lecturas` (ruta sin token, como pide la NOTA 4 de la guía). Los nombres de las claves deben ser idénticos en el ESP32, el backend y el frontend.
@@ -123,12 +125,20 @@ Más detalles y la lista de endpoints en [`backend/README.md`](backend/README.md
 
 ### Frontend
 
-Se completa en el Paso 3.
+Con el backend corriendo:
+
+```
+cd frontend
+npm install
+ng serve -o
+```
+
+Se abre en `http://localhost:4200`. Home es pública; Monitoreo y Dashboard piden iniciar sesión con un usuario creado desde Postman. Más detalles en [`frontend/README.md`](frontend/README.md).
 
 ## Avance
 
 - [x] Paso 0 — Estructura del repositorio
 - [x] Paso 1 — ESP32: clases de hardware, reglas de control, JSON, WiFi y envío
 - [x] Paso 2 — Backend: base de datos, modelos, login con JWT y endpoints
-- [ ] Paso 3 — Frontend: login, Home, Monitoreo y Dashboard
+- [x] Paso 3 — Frontend: login, Home, Monitoreo y Dashboard
 - [ ] Paso 4 — Prueba en dos computadores y entrega

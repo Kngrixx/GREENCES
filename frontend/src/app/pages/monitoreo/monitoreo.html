@@ -1,0 +1,164 @@
+<div class="contenedor">
+  <header class="encabezado-pagina">
+    <div>
+      <span class="eyebrow">Tiempo real</span>
+      <h1>Monitoreo</h1>
+      <p>Sensores y actuadores según la última lectura enviada por el ESP32.</p>
+    </div>
+
+    <div class="conexion tarjeta" aria-live="polite">
+      @if (cargando()) {
+        <span class="chip chip-apagado">Conectando…</span>
+      } @else if (enLinea()) {
+        <span class="chip chip-ok conexion__vivo">En línea</span>
+      } @else {
+        <span class="chip chip-apagado">Sin datos recientes</span>
+      }
+      <div class="conexion__detalle">
+        @if (lectura(); as l) {
+          <span>Última lectura <strong class="cifra">{{ l.fecha | date: 'HH:mm:ss' }}</strong> · {{ hace() }}</span>
+        } @else {
+          <span>Sin lecturas todavía</span>
+        }
+        <span class="texto-tenue">Se consulta cada {{ cadaSegundos }} s</span>
+      </div>
+    </div>
+  </header>
+
+  @if (error(); as mensaje) {
+    <div class="aviso aviso-error bloque" role="alert">
+      <app-icono nombre="alerta" />
+      <div><strong>Sin conexión con el servidor</strong>{{ mensaje }}</div>
+    </div>
+  }
+
+  @if (cargando()) {
+    <div class="cargando">Cargando la última lectura…</div>
+  } @else if (lectura(); as l) {
+    @if (!enLinea()) {
+      <div class="aviso aviso-alerta bloque" role="status">
+        <app-icono nombre="pulsador" />
+        <div>
+          <strong>El ESP32 no ha enviado datos {{ hace() }}.</strong>
+          El sistema está APAGADO (se enciende con el pulsador) o el ESP32 perdió la conexión.
+          Se muestran los últimos valores recibidos.
+        </div>
+      </div>
+    }
+
+    <!-- ===================== Sensores ===================== -->
+    <section class="sensores" [class.inactivo]="!enLinea()" aria-label="Sensores">
+      <article class="tarjeta sensor temperatura">
+        <div class="sensor__cabecera">
+          <span class="sensor__icono"><app-icono nombre="termometro" /></span>
+          <h2>Temperatura</h2>
+          <span class="chip" [class]="'chip-' + estadoT().tono">{{ estadoT().texto }}</span>
+        </div>
+        <p class="sensor__valor cifra">
+          @if (l.temperatura !== null) {
+            {{ l.temperatura | number: '1.1-1' }}<small>°C</small>
+          } @else {
+            —<small>sensor sin respuesta</small>
+          }
+        </p>
+        <app-medidor [valor]="l.temperatura" [minimo]="0" [maximo]="50"
+                     [marcas]="[u.tempBaja, u.tempMedia, u.tempAlta]" color="var(--color-temperatura)" />
+        <p class="sensor__pie">HTU21D · ventilación a partir de {{ u.tempMedia }} °C</p>
+      </article>
+
+      <article class="tarjeta sensor humedad">
+        <div class="sensor__cabecera">
+          <span class="sensor__icono"><app-icono nombre="gota" /></span>
+          <h2>Humedad ambiente</h2>
+          <span class="chip" [class]="'chip-' + estadoHA().tono">{{ estadoHA().texto }}</span>
+        </div>
+        <p class="sensor__valor cifra">
+          @if (l.humedad_ambiente !== null) {
+            {{ l.humedad_ambiente | number: '1.1-1' }}<small>%</small>
+          } @else {
+            —<small>sensor sin respuesta</small>
+          }
+        </p>
+        <app-medidor [valor]="l.humedad_ambiente" [marcas]="[u.humedadBaja, u.humedadAlta]"
+                     color="var(--color-humedad)" />
+        <p class="sensor__pie">HTU21D · rango normal {{ u.humedadBaja }}–{{ u.humedadAlta }} %</p>
+      </article>
+
+      <article class="tarjeta sensor suelo">
+        <div class="sensor__cabecera">
+          <span class="sensor__icono"><app-icono nombre="brote" /></span>
+          <h2>Humedad del sustrato</h2>
+          <span class="chip" [class]="'chip-' + estadoHS().tono">{{ estadoHS().texto }}</span>
+        </div>
+        <p class="sensor__valor cifra">{{ l.humedad_suelo | number: '1.1-1' }}<small>%</small></p>
+        <app-medidor [valor]="l.humedad_suelo" [marcas]="[u.humedadBaja, u.humedadAlta]"
+                     color="var(--color-suelo)" />
+        <p class="sensor__pie">YL-69 · 0 % seco, 100 % sumergido</p>
+      </article>
+    </section>
+
+    <!-- ===================== Actuadores ===================== -->
+    <h2 class="subtitulo">Actuadores</h2>
+    <section class="actuadores" [class.inactivo]="!enLinea()" aria-label="LEDs y ventilador">
+      <article class="tarjeta actuador">
+        <span class="led led-verde" [style.--intensidad]="l.led_verde_pwm / 100"
+              [class.encendido]="l.led_verde_pwm > 0"></span>
+        <div class="actuador__texto">
+          <h3>LED verde <span class="texto-tenue">· PWM</span></h3>
+          <p class="actuador__estado cifra">{{ l.led_verde_pwm }} %</p>
+          <div class="pasos-pwm" aria-hidden="true">
+            @for (nivel of [30, 70, 100]; track nivel) {
+              <span [class.lleno]="l.led_verde_pwm >= nivel"></span>
+            }
+          </div>
+          <p class="actuador__motivo">{{ motivoLedVerde(l.led_verde_pwm) }}</p>
+        </div>
+      </article>
+
+      <article class="tarjeta actuador">
+        <span class="led led-rojo" [class.encendido]="l.led_rojo === 1"></span>
+        <div class="actuador__texto">
+          <h3>LED rojo</h3>
+          <p class="actuador__estado">{{ l.led_rojo === 1 ? 'Encendido' : 'Apagado' }}</p>
+          <p class="actuador__motivo">{{ motivoLedRojo(l.led_rojo === 1) }}</p>
+        </div>
+      </article>
+
+      <article class="tarjeta actuador">
+        <span class="led led-blanco" [class.encendido]="l.led_blanco === 1"
+              [class.parpadeando]="l.led_blanco === 2 && enLinea()"></span>
+        <div class="actuador__texto">
+          <h3>LED blanco</h3>
+          <p class="actuador__estado">{{ textoLedBlanco[l.led_blanco] }}</p>
+          <p class="actuador__motivo">{{ motivoLedBlanco(l.led_blanco) }}</p>
+        </div>
+      </article>
+
+      <article class="tarjeta actuador">
+        <span class="ventilador" [class.girando]="l.ventilador === 1 && enLinea()"
+              [class.encendido]="l.ventilador === 1">
+          <app-icono nombre="ventilador" [tamano]="34" />
+        </span>
+        <div class="actuador__texto">
+          <h3>Ventilador</h3>
+          <p class="actuador__estado">{{ l.ventilador === 1 ? 'Encendido' : 'Apagado' }}</p>
+          <p class="actuador__motivo">{{ motivoVentilador(l.ventilador === 1) }}</p>
+        </div>
+      </article>
+    </section>
+
+    <p class="pie-lectura texto-tenue">
+      Lectura #{{ l.id }} · sistema {{ l.sistema === 'ON' ? 'ENCENDIDO' : 'APAGADO' }} ·
+      recibida el {{ l.fecha | date: "d 'de' MMMM, HH:mm:ss" }}
+    </p>
+  } @else if (!error()) {
+    <div class="tarjeta vacio">
+      <app-icono nombre="pulsador" [tamano]="32" />
+      <h2>Todavía no hay lecturas</h2>
+      <p class="texto-suave">
+        Enciende el sistema con el pulsador del ESP32. La primera lectura aparece aquí en cuanto llegue
+        al servidor.
+      </p>
+    </div>
+  }
+</div>

@@ -1,0 +1,98 @@
+<div class="contenedor">
+  <header class="encabezado-pagina">
+    <div>
+      <span class="eyebrow">Histórico</span>
+      <h1>Dashboard</h1>
+      <p>Valores extremos y comportamiento de la temperatura en el periodo que elijas.</p>
+    </div>
+    <div class="controles">
+      <!-- Un solo filtro para las tarjetas y el grafico -->
+      <div class="filtro" role="group" aria-label="Periodo de las tarjetas y del gráfico">
+        @for (p of periodos; track p.clave) {
+          <button type="button" [class.activo]="periodo() === p.clave" [attr.aria-pressed]="periodo() === p.clave"
+                  (click)="periodo.set(p.clave)">{{ p.boton }}</button>
+        }
+      </div>
+      <div class="actualizado texto-tenue">
+        <app-icono nombre="reloj" [tamano]="16" />
+        @if (actualizado(); as hora) {
+          Actualizado {{ hora | date: 'HH:mm:ss' }} · cada {{ cadaSegundos }} s
+        } @else {
+          Cargando…
+        }
+      </div>
+    </div>
+  </header>
+
+  @if (error(); as mensaje) {
+    <div class="aviso aviso-error bloque" role="alert">
+      <app-icono nombre="alerta" />
+      <div><strong>Sin conexión con el servidor</strong>{{ mensaje }}</div>
+    </div>
+  }
+
+  <!-- ===================== Maximos y minimos ===================== -->
+  <section class="bloque-resumen" aria-label="Máximos y mínimos">
+    <div class="bloque-resumen__cabecera">
+      <h2>Máximos y mínimos · {{ textoPeriodo() }}</h2>
+    </div>
+
+    <div class="tarjetas">
+      @for (t of tarjetas(); track t.titulo) {
+        <article class="tarjeta resumen" [class]="t.clase">
+          <div class="resumen__cabecera">
+            <span class="resumen__icono"><app-icono [nombre]="t.icono" /></span>
+            <h3>{{ t.titulo }}</h3>
+          </div>
+          <div class="resumen__valores">
+            <div class="valor">
+              <span class="valor__etiqueta"><app-icono nombre="subir" [tamano]="14" /> Máximo</span>
+              <span class="valor__numero cifra">
+                @if (t.datos.maximo !== null) {
+                  {{ t.datos.maximo | number: '1.1-1' }}<small>{{ t.unidad }}</small>
+                } @else { — }
+              </span>
+            </div>
+            <div class="valor">
+              <span class="valor__etiqueta"><app-icono nombre="bajar" [tamano]="14" /> Mínimo</span>
+              <span class="valor__numero cifra">
+                @if (t.datos.minimo !== null) {
+                  {{ t.datos.minimo | number: '1.1-1' }}<small>{{ t.unidad }}</small>
+                } @else { — }
+              </span>
+            </div>
+          </div>
+          @if (t.datos.maximo !== null && t.datos.minimo !== null) {
+            <p class="resumen__rango">
+              Variación de {{ t.datos.maximo - t.datos.minimo | number: '1.1-1' }} {{ t.unidad }}
+            </p>
+          } @else {
+            <p class="resumen__rango">Sin lecturas en el periodo</p>
+          }
+        </article>
+      }
+    </div>
+    <p class="nota texto-tenue">
+      Calculado en PostgreSQL con MAX y MIN sobre {{ resumen()?.total_lecturas ?? 0 }} lecturas
+      ({{ textoPeriodo() }}), solo con el sistema encendido.
+    </p>
+  </section>
+
+  <!-- ===================== Grafico ===================== -->
+  <section class="tarjeta grafico" aria-label="Temperatura del periodo">
+    <div class="grafico__cabecera">
+      <div>
+        <h2>Temperatura · {{ textoPeriodo() }}</h2>
+        <p class="texto-suave">{{ descripcionPuntos() }} Pasa el mouse para ver el valor.</p>
+      </div>
+      @if (ultimaTemperatura() !== null) {
+        <div class="grafico__actual">
+          <span class="texto-tenue">{{ agrupado() ? 'Último promedio' : 'Último valor' }}</span>
+          <strong class="cifra">{{ ultimaTemperatura() | number: '1.1-1' }} °C</strong>
+        </div>
+      }
+    </div>
+    <app-grafico-temperatura [puntos]="serie()?.puntos ?? []" [desde]="desde()" [hasta]="hasta()"
+                             [intervalo]="intervalo()" />
+  </section>
+</div>

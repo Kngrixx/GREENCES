@@ -1,0 +1,271 @@
+/*
+ * Estilos globales de GreenCES — concepto "Laboratorio limpio".
+ * Fondo claro, superficies blancas con borde fino y un verde serio como acento.
+ * Los colores y medidas se definen una sola vez como variables CSS y los
+ * componentes las reutilizan.
+ */
+:root {
+  /* Superficies y texto */
+  --fondo: #f4f7f5;
+  --superficie: #ffffff;
+  --superficie-suave: #f8faf9;
+  --borde: #e2e8e5;
+  --borde-fuerte: #cdd6d1;
+  --texto: #13201a;
+  --texto-suave: #55645d;
+  --texto-tenue: #87958e;
+
+  /* Marca */
+  --verde: #0f7a4d;
+  --verde-oscuro: #0a5636;
+  --verde-claro: #e7f4ed;
+  --verde-medio: #a7d8bd;
+
+  /* Estados */
+  --rojo: #c0362c;
+  --rojo-claro: #fbeceb;
+  --ambar: #a86300;
+  --ambar-claro: #fdf2e0;
+  --azul: #1f6fb2;
+  --azul-claro: #e8f1fa;
+  --tierra: #8a5a2b;
+  --tierra-claro: #f6eee5;
+  --gris-claro: #eef1ef;
+
+  /* Variables por magnitud (tarjetas, medidores y gráfico) */
+  --color-temperatura: #c2410c;
+  --color-temperatura-claro: #fdeee6;
+  --color-humedad: var(--azul);
+  --color-humedad-claro: var(--azul-claro);
+  --color-suelo: var(--tierra);
+  --color-suelo-claro: var(--tierra-claro);
+
+  /* Forma */
+  --radio: 14px;
+  --radio-sm: 10px;
+  --sombra: 0 1px 2px rgba(19, 32, 26, 0.04), 0 6px 20px rgba(19, 32, 26, 0.05);
+  --sombra-fuerte: 0 2px 4px rgba(19, 32, 26, 0.05), 0 16px 40px rgba(19, 32, 26, 0.1);
+
+  --fuente: "Inter", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --mono: "Cascadia Mono", Consolas, ui-monospace, "SFMono-Regular", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: var(--fuente);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--texto);
+  background: var(--fondo);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--verde);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--verde);
+  outline-offset: 2px;
+}
+
+/* ---------- Utilidades de diseño ---------- */
+.contenedor {
+  width: min(1180px, 100% - 32px);
+  margin-inline: auto;
+}
+
+.tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.cifra {
+  font-variant-numeric: tabular-nums;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--verde);
+}
+
+.texto-suave {
+  color: var(--texto-suave);
+}
+
+.encabezado-pagina {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 32px 0 24px;
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    margin-top: 6px;
+    color: var(--texto-suave);
+  }
+}
+
+/* ---------- Botones ---------- */
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 42px;
+  padding: 0 18px;
+  border-radius: var(--radio-sm);
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+}
+
+.boton-primario {
+  background: var(--verde);
+  color: #fff;
+
+  &:hover:not(:disabled) {
+    background: var(--verde-oscuro);
+  }
+}
+
+.boton-secundario {
+  background: var(--superficie);
+  color: var(--texto);
+  border-color: var(--borde-fuerte);
+
+  &:hover:not(:disabled) {
+    border-color: var(--verde);
+    color: var(--verde);
+  }
+}
+
+/* ---------- Chips de estado ---------- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+}
+
+.chip-ok {
+  background: var(--verde-claro);
+  color: var(--verde);
+}
+
+.chip-info {
+  background: var(--azul-claro);
+  color: var(--azul);
+}
+
+.chip-alerta {
+  background: var(--ambar-claro);
+  color: var(--ambar);
+}
+
+.chip-critico {
+  background: var(--rojo-claro);
+  color: var(--rojo);
+}
+
+.chip-apagado {
+  background: var(--gris-claro);
+  color: var(--texto-tenue);
+}
+
+/* ---------- Avisos ---------- */
+.aviso {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  border-radius: var(--radio-sm);
+  border: 1px solid;
+  font-size: 14px;
+
+  strong {
+    display: block;
+    margin-bottom: 2px;
+  }
+}
+
+.aviso-alerta {
+  background: var(--ambar-claro);
+  border-color: #f1d9a8;
+  color: #6b4300;
+}
+
+.aviso-error {
+  background: var(--rojo-claro);
+  border-color: #f0c4c0;
+  color: #7d231c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,74 @@
+<div class="login">
+  <section class="presentacion" aria-label="GreenCES">
+    <a class="marca" routerLink="/home">
+      <span class="marca__logo"><app-icono nombre="hoja" [tamano]="20" /></span>
+      <span>Green<strong>CES</strong></span>
+    </a>
+
+    <div class="presentacion__texto">
+      <h1>Ambiente controlado para el material biológico.</h1>
+      <p>Temperatura, humedad ambiente y humedad del sustrato, vigiladas en tiempo real con ventilación automática.</p>
+    </div>
+
+    <ul class="presentacion__lista">
+      <li><app-icono nombre="termometro" [tamano]="18" /> Lecturas cada 2 s en el ESP32 y envío al servidor cada 15 s</li>
+      <li><app-icono nombre="ventilador" [tamano]="18" /> Ventilador con histéresis: enciende a 35 °C, apaga bajo 32 °C</li>
+      <li><app-icono nombre="candado" [tamano]="18" /> Acceso a los datos protegido con token JWT</li>
+    </ul>
+  </section>
+
+  <section class="acceso">
+    <form class="tarjeta formulario" [formGroup]="formulario" (ngSubmit)="entrar()" novalidate>
+      <div>
+        <h2>Iniciar sesión</h2>
+        <p class="texto-suave">Ingresa con tu usuario de la plataforma.</p>
+      </div>
+
+      @if (sesionVencida) {
+        <div class="aviso aviso-alerta" role="status">
+          <app-icono nombre="reloj" />
+          <span>Tu sesión venció. Inicia sesión de nuevo.</span>
+        </div>
+      }
+      @if (error(); as mensaje) {
+        <div class="aviso aviso-error" role="alert">
+          <app-icono nombre="alerta" />
+          <span>{{ mensaje }}</span>
+        </div>
+      }
+
+      <label class="campo">
+        <span>Correo electrónico</span>
+        <input type="email" formControlName="email" autocomplete="username" placeholder="nombre@correo.com" />
+        @if (formulario.controls.email.touched && formulario.controls.email.invalid) {
+          <small class="campo__error">Escribe un correo válido.</small>
+        }
+      </label>
+
+      <label class="campo">
+        <span>Contraseña</span>
+        <div class="campo__clave">
+          <input [type]="verClave() ? 'text' : 'password'" formControlName="password"
+                 autocomplete="current-password" placeholder="••••••••" />
+          <button type="button" class="campo__ver" (click)="verClave.set(!verClave())"
+                  [attr.aria-label]="verClave() ? 'Ocultar contraseña' : 'Mostrar contraseña'">
+            {{ verClave() ? 'Ocultar' : 'Mostrar' }}
+          </button>
+        </div>
+        @if (formulario.controls.password.touched && formulario.controls.password.invalid) {
+          <small class="campo__error">Escribe la contraseña.</small>
+        }
+      </label>
+
+      <button type="submit" class="boton boton-primario formulario__enviar" [disabled]="enviando()">
+        {{ enviando() ? 'Ingresando…' : 'Ingresar' }}
+      </button>
+
+      <p class="formulario__nota">
+        Los usuarios se crean desde Postman con <code>POST /api/auth/registro</code>.
+      </p>
+    </form>
+
+    <a class="volver" routerLink="/home">← Volver al inicio</a>
+  </section>
+</div>

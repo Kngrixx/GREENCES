@@ -1,0 +1,289 @@
+/* ---------- Estado de conexion ---------- */
+.conexion {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+}
+
+.conexion__detalle {
+  display: grid;
+  font-size: 13.5px;
+
+  .texto-tenue {
+    font-size: 12px;
+    color: var(--texto-tenue);
+  }
+}
+
+.conexion__vivo::before {
+  animation: latido 1.6s ease-out infinite;
+}
+
+@keyframes latido {
+  0% {
+    box-shadow: 0 0 0 0 rgba(15, 122, 77, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 7px rgba(15, 122, 77, 0);
+  }
+}
+
+.bloque {
+  margin-bottom: 20px;
+}
+
+.cargando {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--texto-suave);
+}
+
+/* ---------- Sensores ---------- */
+.sensores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.sensor {
+  display: grid;
+  gap: 14px;
+  padding: 22px;
+}
+
+.sensor__cabecera {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .chip {
+    margin-left: auto;
+  }
+}
+
+.sensor__icono {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.temperatura .sensor__icono {
+  color: var(--color-temperatura);
+  background: var(--color-temperatura-claro);
+}
+
+.humedad .sensor__icono {
+  color: var(--color-humedad);
+  background: var(--color-humedad-claro);
+}
+
+.suelo .sensor__icono {
+  color: var(--color-suelo);
+  background: var(--color-suelo-claro);
+}
+
+.sensor__valor {
+  font-size: 44px;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  line-height: 1;
+
+  small {
+    margin-left: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--texto-suave);
+  }
+}
+
+.sensor__pie {
+  font-size: 12.5px;
+  color: var(--texto-tenue);
+}
+
+/* Con el sistema sin datos recientes, las tarjetas se ven atenuadas */
+.inactivo {
+  opacity: 0.55;
+  filter: grayscale(0.6);
+}
+
+/* ---------- Actuadores ---------- */
+.subtitulo {
+  margin: 36px 0 16px;
+  font-size: 18px;
+}
+
+.actuadores {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.actuador {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+}
+
+.actuador__texto {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--texto-suave);
+  }
+
+  .texto-tenue {
+    font-weight: 500;
+    color: var(--texto-tenue);
+  }
+}
+
+.actuador__estado {
+  font-size: 20px;
+  font-weight: 650;
+}
+
+.actuador__motivo {
+  margin-top: 4px;
+  font-size: 12.5px;
+  color: var(--texto-tenue);
+}
+
+/* LEDs dibujados con CSS */
+.led {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #e6ebe8;
+  border: 1px solid var(--borde-fuerte);
+  box-shadow: inset 0 -3px 6px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.led-verde.encendido {
+  /* La intensidad del PWM (0 a 1) define cuanto brilla */
+  background: color-mix(in srgb, #1fbf6f calc(var(--intensidad) * 100%), #e6ebe8);
+  border-color: #17a35e;
+  box-shadow: 0 0 calc(var(--intensidad) * 22px) rgba(31, 191, 111, calc(var(--intensidad) * 0.8));
+}
+
+.led-rojo.encendido {
+  background: #e5483c;
+  border-color: #c0362c;
+  box-shadow: 0 0 20px rgba(229, 72, 60, 0.6);
+}
+
+.led-blanco.encendido,
+.led-blanco.parpadeando {
+  background: #fff;
+  border-color: #c9d3ce;
+  box-shadow: 0 0 0 4px #f1f4f2, 0 0 20px rgba(140, 160, 150, 0.6);
+}
+
+.led-blanco.parpadeando {
+  animation: parpadeo 1s infinite; /* 500 ms encendido, 500 ms apagado, como el ESP32 */
+}
+
+@keyframes parpadeo {
+  50%,
+  100% {
+    background: #e6ebe8;
+    box-shadow: none;
+  }
+}
+
+.pasos-pwm {
+  display: flex;
+  gap: 4px;
+  margin-top: 2px;
+
+  span {
+    width: 22px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--gris-claro);
+  }
+
+  .lleno {
+    background: #1fbf6f;
+  }
+}
+
+.ventilador {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--texto-tenue);
+  background: var(--gris-claro);
+
+  &.encendido {
+    color: var(--verde);
+    background: var(--verde-claro);
+  }
+
+  &.girando app-icono {
+    animation: girar 0.9s linear infinite;
+  }
+}
+
+@keyframes girar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pie-lectura {
+  margin-top: 20px;
+  font-size: 12.5px;
+  color: var(--texto-tenue);
+}
+
+/* ---------- Sin lecturas ---------- */
+.vacio {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 56px 24px;
+  text-align: center;
+  color: var(--texto-suave);
+
+  h2 {
+    color: var(--texto);
+    font-size: 20px;
+  }
+
+  p {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .actuadores {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 820px) {
+  .sensores,
+  .actuadores {
+    grid-template-columns: 1fr;
+  }
+}

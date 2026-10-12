@@ -1,0 +1,51 @@
+:host {
+  display: block;
+}
+
+.pista {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--gris-claro);
+  overflow: hidden;
+}
+
+.relleno {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--color);
+  transition: width 0.6s ease;
+}
+
+.marca {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.escala {
+  position: relative;
+  height: 18px;
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--texto-tenue);
+  font-variant-numeric: tabular-nums;
+}
+
+.escala__extremo {
+  position: absolute;
+  left: 0;
+}
+
+.escala__extremo--fin {
+  left: auto;
+  right: 0;
+}
+
+.escala__marca {
+  position: absolute;
+  transform: translateX(-50%);
+}

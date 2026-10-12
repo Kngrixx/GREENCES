@@ -1,0 +1,188 @@
+<!-- ===================== Presentacion ===================== -->
+<section class="hero">
+  <div class="contenedor hero__contenido">
+    <div class="hero__texto">
+      <span class="eyebrow">Monitoreo y ventilación inteligente</span>
+      <h1>Condiciones estables para el material biológico, en todo momento.</h1>
+      <p class="hero__descripcion">
+        GreenCES vigila la temperatura, la humedad ambiente y la humedad del sustrato en zonas de
+        almacenamiento. Un ESP32 decide en tiempo real cuándo ventilar y lo indica con señales
+        luminosas. La plataforma web guarda el historial y lo presenta en tableros claros.
+      </p>
+      <div class="hero__acciones">
+        <a class="boton boton-primario" routerLink="/monitoreo">
+          Ver monitoreo en vivo
+          <app-icono nombre="flecha" [tamano]="16" />
+        </a>
+        <a class="boton boton-secundario" routerLink="/dashboard">Ir al dashboard</a>
+      </div>
+    </div>
+
+    <!-- Vista de ejemplo del producto (valores ilustrativos, no son datos reales) -->
+    <div class="muestra tarjeta" aria-label="Vista de ejemplo del tablero">
+      <div class="muestra__cabecera">
+        <span class="muestra__titulo">Zona de almacenamiento A</span>
+        <span class="chip chip-ok">En línea</span>
+      </div>
+      <div class="muestra__metricas">
+        <div class="metrica temperatura">
+          <app-icono nombre="termometro" [tamano]="18" />
+          <span class="metrica__valor cifra">26,4<small>°C</small></span>
+          <span class="metrica__nombre">Temperatura</span>
+        </div>
+        <div class="metrica humedad">
+          <app-icono nombre="gota" [tamano]="18" />
+          <span class="metrica__valor cifra">48<small>%</small></span>
+          <span class="metrica__nombre">Hum. ambiente</span>
+        </div>
+        <div class="metrica suelo">
+          <app-icono nombre="brote" [tamano]="18" />
+          <span class="metrica__valor cifra">35<small>%</small></span>
+          <span class="metrica__nombre">Hum. sustrato</span>
+        </div>
+      </div>
+      <svg class="muestra__grafica" viewBox="0 0 300 80" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="relleno-muestra" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#0f7a4d" stop-opacity="0.18" />
+            <stop offset="1" stop-color="#0f7a4d" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <line x1="0" x2="300" y1="26" y2="26" class="muestra__umbral" />
+        <path d="M0 62 L30 58 L60 60 L90 52 L120 48 L150 41 L180 36 L210 30 L240 33 L270 40 L300 38 L300 80 L0 80 Z"
+              fill="url(#relleno-muestra)" />
+        <path d="M0 62 L30 58 L60 60 L90 52 L120 48 L150 41 L180 36 L210 30 L240 33 L270 40 L300 38"
+              class="muestra__linea" />
+      </svg>
+      <div class="muestra__pie">
+        <span><i class="punto punto--verde"></i> LED verde 70 %</span>
+        <span><app-icono nombre="ventilador" [tamano]="14" /> Ventilador apagado</span>
+        <span class="texto-suave">Vista de ejemplo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Variables ===================== -->
+<section class="contenedor seccion">
+  <div class="seccion__encabezado">
+    <span class="eyebrow">Qué vigila</span>
+    <h2>Tres variables críticas para conservar muestras y sustratos</h2>
+  </div>
+  <div class="variables">
+    @for (v of variables; track v.titulo) {
+      <article class="tarjeta variable" [class]="v.clase">
+        <span class="variable__icono"><app-icono [nombre]="v.icono" [tamano]="22" /></span>
+        <h3>{{ v.titulo }}</h3>
+        <span class="variable__sensor">{{ v.sensor }}</span>
+        <p class="texto-suave">{{ v.texto }}</p>
+      </article>
+    }
+  </div>
+</section>
+
+<!-- ===================== Reglas de control ===================== -->
+<section class="contenedor seccion">
+  <div class="seccion__encabezado">
+    <span class="eyebrow">Cómo decide</span>
+    <h2>Reglas de control claras y verificables</h2>
+    <p class="texto-suave">Se aplican solo con el sistema ENCENDIDO. El pulsador alterna entre encendido y apagado.</p>
+  </div>
+
+  <div class="reglas">
+    <article class="tarjeta regla">
+      <h3><app-icono nombre="termometro" [tamano]="18" /> Temperatura</h3>
+      <div class="escala">
+        <div class="escala__tramo tramo-1">
+          <span class="escala__rango">&lt; {{ u.tempBaja }} °C</span>
+          <span>LED verde 30 %</span>
+        </div>
+        <div class="escala__tramo tramo-2">
+          <span class="escala__rango">{{ u.tempBaja }}–{{ u.tempMedia }} °C</span>
+          <span>LED verde 70 %</span>
+        </div>
+        <div class="escala__tramo tramo-3">
+          <span class="escala__rango">{{ u.tempMedia }}–{{ u.tempAlta }} °C</span>
+          <span>LED verde 100 % + ventilador</span>
+        </div>
+        <div class="escala__tramo tramo-4">
+          <span class="escala__rango">≥ {{ u.tempAlta }} °C</span>
+          <span>LED rojo + ventilador</span>
+        </div>
+      </div>
+      <p class="regla__nota">
+        <app-icono nombre="ventilador" [tamano]="16" />
+        <span><strong>Histéresis:</strong> el ventilador enciende al llegar a {{ u.tempMedia }} °C y solo se apaga
+          cuando la temperatura baja de {{ u.ventiladorApaga }} °C. Así no se prende y apaga a cada rato.</span>
+      </p>
+    </article>
+
+    <article class="tarjeta regla">
+      <h3><app-icono nombre="gota" [tamano]="18" /> Humedades → LED blanco</h3>
+      <ul class="lista-reglas">
+        <li>
+          <span class="led led--fijo"></span>
+          <span><strong>Encendido fijo</strong> si la humedad ambiente <em>y</em> la del sustrato están por debajo de {{ u.humedadBaja }} %.</span>
+        </li>
+        <li>
+          <span class="led led--parpadeo"></span>
+          <span><strong>Parpadea cada 500 ms</strong> si al menos una de las dos llega a {{ u.humedadAlta }} % o más.</span>
+        </li>
+        <li>
+          <span class="led"></span>
+          <span><strong>Apagado</strong> en cualquier otro caso.</span>
+        </li>
+      </ul>
+      <p class="regla__nota">
+        <app-icono nombre="pulsador" [tamano]="16" />
+        <span><strong>Apagado:</strong> sin mediciones ni envíos; LEDs y ventilador apagados y valores en cero.</span>
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== Arquitectura ===================== -->
+<section class="contenedor seccion">
+  <div class="seccion__encabezado">
+    <span class="eyebrow">Cómo funciona</span>
+    <h2>Del sensor al tablero en cuatro pasos</h2>
+  </div>
+  <ol class="flujo">
+    @for (paso of pasos; track paso.titulo; let i = $index) {
+      <li class="tarjeta paso">
+        <span class="paso__numero">{{ i + 1 }}</span>
+        <span class="paso__icono"><app-icono [nombre]="paso.icono" [tamano]="22" /></span>
+        <h3>{{ paso.titulo }}</h3>
+        <p class="texto-suave">{{ paso.texto }}</p>
+      </li>
+    }
+  </ol>
+</section>
+
+<!-- ===================== Hardware y tecnologia ===================== -->
+<section class="contenedor seccion">
+  <div class="tarjeta componentes">
+    <div>
+      <span class="eyebrow">Hardware</span>
+      <h2>Componentes del prototipo</h2>
+      <ul class="componentes__lista">
+        @for (h of hardware; track h) {
+          <li><app-icono nombre="chip" [tamano]="16" /> {{ h }}</li>
+        }
+      </ul>
+    </div>
+    <div>
+      <span class="eyebrow">Software</span>
+      <h2>Tecnologías</h2>
+      <div class="etiquetas">
+        @for (t of tecnologia; track t) {
+          <span class="etiqueta">{{ t }}</span>
+        }
+      </div>
+      <a class="boton boton-primario componentes__accion" routerLink="/monitoreo">
+        Entrar a la plataforma
+        <app-icono nombre="flecha" [tamano]="16" />
+      </a>
+    </div>
+  </div>
+</section>

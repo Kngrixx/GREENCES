@@ -1,0 +1,13 @@
+<div class="pista" [style.--color]="color()">
+  <div class="relleno" [style.width.%]="relleno()"></div>
+  @for (m of marcas(); track m) {
+    <span class="marca" [style.left.%]="posicion(m)"></span>
+  }
+</div>
+<div class="escala">
+  <span class="escala__extremo">{{ minimo() }}</span>
+  @for (m of marcas(); track m) {
+    <span class="escala__marca" [style.left.%]="posicion(m)">{{ m }}</span>
+  }
+  <span class="escala__extremo escala__extremo--fin">{{ maximo() }}</span>
+</div>

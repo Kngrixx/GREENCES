@@ -1,0 +1,44 @@
+<header class="barra">
+  <div class="contenedor barra__contenido">
+    <a class="marca" routerLink="/home" aria-label="GreenCES, ir al inicio">
+      <span class="marca__logo"><app-icono nombre="hoja" [tamano]="18" /></span>
+      <span class="marca__nombre">Green<strong>CES</strong></span>
+    </a>
+
+    <nav class="menu" aria-label="Secciones">
+      @for (seccion of secciones; track seccion.ruta) {
+        <a class="menu__enlace" [routerLink]="seccion.ruta" routerLinkActive="activo"
+           ariaCurrentWhenActive="page">{{ seccion.texto }}</a>
+      }
+    </nav>
+
+    <div class="sesion">
+      @if (auth.usuario(); as usuario) {
+        <span class="sesion__usuario" [title]="usuario.email">
+          <app-icono nombre="usuario" [tamano]="16" />
+          {{ auth.nombreCorto() }}
+        </span>
+        <button type="button" class="boton boton-secundario sesion__salir" (click)="cerrarSesion()">
+          <app-icono nombre="salir" [tamano]="16" />
+          <span>Salir</span>
+        </button>
+      } @else {
+        <a class="boton boton-primario sesion__entrar" routerLink="/login">
+          <app-icono nombre="candado" [tamano]="16" />
+          Iniciar sesión
+        </a>
+      }
+    </div>
+  </div>
+</header>
+
+<main class="principal">
+  <router-outlet />
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie__contenido">
+    <span>GreenCES · Monitoreo y ventilación inteligente</span>
+    <span class="texto-suave">Examen 3 · Programación 2 y Algoritmos y Estructura de Datos · CES {{ anio }} · Alejandro Chaux</span>
+  </div>
+</footer>

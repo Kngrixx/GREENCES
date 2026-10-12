@@ -1,0 +1,71 @@
+<div class="marco">
+  <svg #lienzo class="grafico" [attr.viewBox]="'0 0 ' + ancho + ' ' + alto" role="img"
+       aria-label="Temperatura del periodo" (mousemove)="mover($event, lienzo)"
+       (mouseleave)="seleccion.set(null)">
+    <defs>
+      <linearGradient id="relleno-temperatura" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0f7a4d" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#0f7a4d" stop-opacity="0" />
+      </linearGradient>
+    </defs>
+
+    <!-- Cuadricula y eje Y -->
+    @for (l of lineasY(); track l.v) {
+      <line class="cuadricula" [attr.x1]="m.izq" [attr.x2]="ancho - m.der" [attr.y1]="l.y" [attr.y2]="l.y" />
+      <text class="eje eje-y" [attr.x]="m.izq - 8" [attr.y]="l.y + 4">{{ l.v }}</text>
+    }
+    <text class="eje eje-y" [attr.x]="m.izq - 8" y="12">°C</text>
+
+    <!-- Eje X: el paso entre marcas depende del periodo (1 min, 10 min, 3 h...) -->
+    @for (l of ejeX().marcas; track l.t) {
+      <line class="cuadricula vertical" [attr.x1]="l.x" [attr.x2]="l.x" [attr.y1]="m.arr" [attr.y2]="base" />
+      <text class="eje eje-x" [attr.x]="l.x" [attr.y]="alto - 8">{{ l.t | date: ejeX().formato }}</text>
+    }
+
+    <!-- Umbrales de las reglas de control -->
+    @for (u of umbrales(); track u.v) {
+      <line class="umbral" [class]="'l-' + u.clase" [attr.x1]="m.izq" [attr.x2]="ancho - m.der" [attr.y1]="u.y" [attr.y2]="u.y" />
+    }
+
+    <!-- Linea de temperatura -->
+    @for (tramo of tramos(); track $index) {
+      <path class="area" [attr.d]="tramo.area" fill="url(#relleno-temperatura)" />
+      <path class="linea" [attr.d]="tramo.linea" />
+    }
+    @if (conCirculos()) {
+      @for (p of puntosXY(); track p.t) {
+        <circle class="punto" [attr.cx]="p.x" [attr.cy]="p.y" r="3" />
+      }
+    }
+    @if (ultimo(); as p) {
+      <circle class="punto-ultimo-halo" [attr.cx]="p.x" [attr.cy]="p.y" r="9" />
+      <circle class="punto-ultimo" [attr.cx]="p.x" [attr.cy]="p.y" r="4.5" />
+    }
+
+    <!-- Nombre de cada umbral (encima de la linea de datos para que se lea) -->
+    @for (u of umbrales(); track u.v) {
+      <text class="umbral-texto" [class]="'t-' + u.clase" [attr.x]="m.izq + 8" [attr.y]="u.y - 6">{{ u.texto }}</text>
+    }
+
+    <!-- Valor bajo el mouse -->
+    @if (seleccion(); as s) {
+      <line class="guia" [attr.x1]="s.x" [attr.x2]="s.x" [attr.y1]="m.arr" [attr.y2]="base" />
+      <circle class="punto-ultimo" [attr.cx]="s.x" [attr.cy]="s.y" r="5" />
+      <g class="caja" [attr.transform]="'translate(' + cajaX(s) + ' ' + cajaY(s) + ')'">
+        <rect [attr.width]="anchoCaja" [attr.height]="altoCaja(s)" rx="8" />
+        <text class="caja-valor" x="12" y="20">{{ s.v | number: '1.1-1' }} °C</text>
+        <text class="caja-hora" x="12" y="35">{{ s.t | date: formatoCaja() }}</text>
+        @if (s.n > 1) {
+          <text class="caja-hora" x="12" y="51">promedio de {{ s.n }} lecturas</text>
+        }
+      </g>
+    }
+  </svg>
+
+  @if (!puntos().length) {
+    <div class="vacio">
+      <strong>Sin lecturas en este periodo</strong>
+      <span>Enciende el sistema con el pulsador: el ESP32 envía un dato cada 15 s.</span>
+    </div>
+  }
+</div>
