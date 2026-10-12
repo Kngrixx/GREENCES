@@ -289,9 +289,17 @@
               "path": [
                 "lecturas",
                 "resumen"
+              ],
+              "query": [
+                {
+                  "key": "minutos",
+                  "value": "5",
+                  "disabled": true,
+                  "description": "Periodo en minutos: 5, 60 o 1440. Sin el parametro: todo el historico."
+                }
               ]
             },
-            "description": ""
+            "description": "Sin ?minutos: todo el historico. Activa el parametro para un periodo (5, 60 o 1440)."
           }
         },
         {
@@ -315,7 +323,7 @@
                 }
               ]
             },
-            "description": ""
+            "description": "?minutos=5 (lo que pide la guia), 60 o 1440. Sin el parametro: todo el historico, con promedio por intervalos."
           }
         },
         {

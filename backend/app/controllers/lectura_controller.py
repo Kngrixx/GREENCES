@@ -12,8 +12,11 @@ from app.services.lectura_service import (
     crear_lectura,
     listar_recientes,
     obtener_ultima,
-    temperaturas_recientes,
+    serie_temperatura,
 )
+
+# Periodo mas largo que se acepta en ?minutos= (un ano). Sin el parametro = todo el historico.
+MINUTOS_MAXIMO = 60 * 24 * 365
 
 
 def lectura_a_dict(lectura):
@@ -37,6 +40,16 @@ def _entero_entre(nombre, defecto, minimo, maximo):
     if valor is None:
         return None
     return max(minimo, min(maximo, valor))
+
+
+def _inicio_del_periodo(ahora):
+    """Lee ?minutos=N (5, 60, 1440...) y devuelve (minutos, desde).
+
+    Sin el parametro: (None, None), que significa todo el historico.
+    """
+    minutos = _entero_entre("minutos", None, 1, MINUTOS_MAXIMO)
+    desde = ahora - timedelta(minutes=minutos) if minutos else None
+    return minutos, desde
 
 
 def recibir_lectura():
@@ -73,23 +86,35 @@ def historial():
 
 
 def resumen():
-    """GET /api/lecturas/resumen[?horas=24] - Maximos y minimos para las tarjetas del Dashboard.
+    """GET /api/lecturas/resumen[?minutos=5] - Maximos y minimos para las tarjetas del Dashboard.
 
-    Sin ?horas se calcula sobre todo el historico.
+    ?minutos=5, 60 o 1440 limita el calculo a ese periodo. Sin el parametro se
+    calcula sobre todo el historico.
     """
-    horas = _entero_entre("horas", None, 1, 24 * 365)
-    desde = ahora_utc() - timedelta(hours=horas) if horas else None
+    minutos, desde = _inicio_del_periodo(ahora_utc())
     datos = calcular_resumen(desde)
+    datos["minutos"] = minutos
     datos["desde"] = a_iso(desde)
     return jsonify(datos), 200
 
 
 def temperatura_reciente():
-    """GET /api/lecturas/temperatura?minutos=5 - Puntos del grafico de linea del Dashboard."""
-    minutos = _entero_entre("minutos", 5, 1, 60)
-    desde, filas = temperaturas_recientes(minutos)
+    """GET /api/lecturas/temperatura[?minutos=5] - Puntos del grafico de linea del Dashboard.
+
+    Con ?minutos=5 (lo que pide la guia) cada lectura es un punto. En periodos
+    largos (24 h o todo el historico) el servicio agrupa las lecturas en
+    intervalos y devuelve el promedio de cada uno, para no mandar miles de puntos.
+    """
+    ahora = ahora_utc()
+    minutos, desde = _inicio_del_periodo(ahora)
+    serie = serie_temperatura(desde, ahora)
     return jsonify({
-        "minutos": minutos,
-        "desde": a_iso(desde),
-        "puntos": [{"fecha": a_iso(fecha), "temperatura": temperatura} for fecha, temperatura in filas],
+        "minutos": minutos,                       # null = todo el historico
+        "desde": a_iso(serie["desde"]),           # inicio del periodo (todo: la primera lectura)
+        "hasta": a_iso(serie["hasta"]),           # hora del servidor al responder
+        "intervalo_s": serie["intervalo_s"],      # 15 = cada punto es un envio; mas = promedio
+        "puntos": [
+            {"fecha": a_iso(fecha), "temperatura": temperatura, "lecturas": cantidad}
+            for fecha, temperatura, cantidad in serie["puntos"]
+        ],
     }), 200

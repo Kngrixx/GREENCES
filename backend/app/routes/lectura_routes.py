@@ -44,5 +44,5 @@ def resumen_ruta():                         # Dashboard: tarjetas de maximos y m
 
 @lectura_bp.route("/lecturas/temperatura", methods=["GET"])
 @jwt_required()
-def temperatura_reciente_ruta():            # Dashboard: grafico de los ultimos 5 minutos
+def temperatura_reciente_ruta():            # Dashboard: grafico de temperatura del periodo
     return temperatura_reciente()

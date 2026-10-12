@@ -73,8 +73,8 @@ Todas las rutas empiezan por `/api`.
 | GET | `/auth/perfil` | Sí | Datos del usuario del token |
 | POST | `/lecturas` | **No** | El ESP32 envía su JSON cada 15 s (NOTA 4 de la guía) |
 | GET | `/lecturas/ultima` | Sí | Última lectura y si el sistema está en línea (Monitoreo) |
-| GET | `/lecturas/resumen` | Sí | Máximos y mínimos de temperatura y humedades (tarjetas del Dashboard). `?horas=24` opcional |
-| GET | `/lecturas/temperatura?minutos=5` | Sí | Temperaturas de los últimos 5 minutos (gráfico del Dashboard) |
+| GET | `/lecturas/resumen?minutos=5` | Sí | Máximos y mínimos de temperatura y humedades (tarjetas del Dashboard). `?minutos=5`, `60` o `1440`; sin el parámetro, todo el histórico |
+| GET | `/lecturas/temperatura?minutos=5` | Sí | Temperaturas del periodo (gráfico del Dashboard). Mismo `?minutos=` que el resumen |
 | GET | `/lecturas?limite=20` | Sí | Últimas lecturas guardadas |
 
 ### Recepción de datos del ESP32 (`POST /api/lecturas`)
@@ -116,18 +116,24 @@ Responde `201` con la lectura guardada, o `400` con la lista de errores. La fech
   "humedad_ambiente": { "maximo": 79.4, "minimo": 20.6 },
   "humedad_suelo": { "maximo": 77.6, "minimo": 0.0 },
   "total_lecturas": 5,
+  "minutos": null,
   "desde": null
 }
 ```
 
-Se calcula en PostgreSQL con `MAX` y `MIN`, solo con lecturas del sistema ENCENDIDO. Los `null` se ignoran.
+Se calcula en PostgreSQL con `MAX` y `MIN`, solo con lecturas del sistema ENCENDIDO. Los `null` se ignoran. Con `?minutos=N` solo cuentan las lecturas de los últimos N minutos.
 
 `GET /api/lecturas/temperatura?minutos=5`:
 
 ```json
-{ "minutos": 5, "desde": "2026-10-11T02:48:10+00:00",
-  "puntos": [ { "fecha": "2026-10-11T02:53:10+00:00", "temperatura": 24.2 } ] }
+{ "minutos": 5, "desde": "2026-10-11T02:48:10+00:00", "hasta": "2026-10-11T02:53:10+00:00",
+  "intervalo_s": 15,
+  "puntos": [ { "fecha": "2026-10-11T02:53:10+00:00", "temperatura": 24.2, "lecturas": 1 } ] }
 ```
+
+- Hasta 75 minutos (300 envíos), cada lectura es un punto (`intervalo_s` = 15, `lecturas` = 1).
+- En periodos más largos (`?minutos=1440` o sin el parámetro = todo el histórico), el periodo se divide en intervalos iguales para que salgan máximo 300 puntos. PostgreSQL agrupa las lecturas de cada intervalo (`GROUP BY`) y devuelve su promedio; `lecturas` dice cuántas se promediaron.
+- Sin el parámetro, `desde` es la fecha de la primera lectura.
 
 ## Códigos HTTP que usa la API
 

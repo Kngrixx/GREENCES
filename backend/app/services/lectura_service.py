@@ -4,13 +4,19 @@ lectura_service.py - Guardar y consultar las lecturas del ESP32.
 Las consultas se hacen con SQLAlchemy; cada funcion explica la consulta SQL que
 termina ejecutando PostgreSQL.
 """
-from datetime import timedelta
+import math
+from datetime import datetime, timezone
 
 from sqlalchemy import func, select
 
-from app.common.fechas import ahora_utc
 from app.extensions import db
 from app.models.lectura import Lectura
+
+# El ESP32 envia una lectura cada 15 s. El grafico del Dashboard recibe como
+# maximo MAX_PUNTOS puntos: en periodos cortos cada lectura es un punto y en
+# periodos largos se agrupan en intervalos (ver serie_temperatura).
+SEGUNDOS_ENTRE_ENVIOS = 15
+MAX_PUNTOS = 300
 
 
 def crear_lectura(datos):
@@ -72,19 +78,61 @@ def calcular_resumen(desde=None):
     }
 
 
-def temperaturas_recientes(minutos):
-    """Puntos (fecha, temperatura) de los ultimos 'minutos', del mas viejo al mas nuevo.
+def serie_temperatura(desde, hasta):
+    """Puntos (fecha, temperatura, lecturas) del grafico, del mas viejo al mas nuevo.
 
-    SELECT fecha, temperatura FROM lecturas
-    WHERE fecha >= ahora - minutos AND temperatura IS NOT NULL ORDER BY fecha
+    desde=None -> todo el historico: el periodo empieza en la primera lectura.
+
+    Si el periodo cabe en MAX_PUNTOS envios (hasta 75 min) cada lectura es un
+    punto. Si es mas largo, se divide en intervalos iguales y PostgreSQL agrupa
+    las lecturas de cada intervalo (GROUP BY) y devuelve su promedio:
+
+        SELECT AVG(epoca), AVG(temperatura), COUNT(*)
+        FROM (SELECT FLOOR(EXTRACT(EPOCH FROM fecha) / intervalo) AS grupo,
+                     EXTRACT(EPOCH FROM fecha) AS epoca, temperatura
+              FROM lecturas
+              WHERE sistema = 'ON' AND temperatura IS NOT NULL AND fecha >= desde) AS t
+        GROUP BY grupo ORDER BY grupo
+
+    EXTRACT(EPOCH ...) son los segundos desde 1970: al dividirlos por el
+    intervalo y quitar los decimales (FLOOR), todas las lecturas del mismo
+    intervalo quedan con el mismo numero de grupo.
     """
-    desde = ahora_utc() - timedelta(minutes=minutos)
-    filas = db.session.execute(
-        select(Lectura.fecha, Lectura.temperatura)
-        .where(Lectura.fecha >= desde, Lectura.temperatura.is_not(None))
-        .order_by(Lectura.fecha.asc())
-    ).all()
-    return desde, filas
+    condiciones = [Lectura.sistema == "ON", Lectura.temperatura.is_not(None)]
+    if desde is None:
+        desde = db.session.execute(select(func.min(Lectura.fecha)).where(*condiciones)).scalar()
+        if desde is None:                                  # todavia no hay lecturas
+            return {"desde": None, "hasta": hasta, "intervalo_s": SEGUNDOS_ENTRE_ENVIOS, "puntos": []}
+    condiciones.append(Lectura.fecha >= desde)
+
+    segundos = max(1.0, (hasta - desde).total_seconds())
+    intervalo = max(SEGUNDOS_ENTRE_ENVIOS, math.ceil(segundos / MAX_PUNTOS))
+
+    if intervalo <= SEGUNDOS_ENTRE_ENVIOS:
+        # Periodo corto (5 min, 1 h): cada lectura es un punto.
+        filas = db.session.execute(
+            select(Lectura.fecha, Lectura.temperatura).where(*condiciones).order_by(Lectura.fecha.asc())
+        ).all()
+        puntos = [(fecha, temperatura, 1) for fecha, temperatura in filas]
+    else:
+        # Periodo largo (24 h, todo): promedio por intervalo.
+        epoca = func.extract("epoch", Lectura.fecha)
+        agrupadas = select(
+            func.floor(epoca / intervalo).label("grupo"),
+            epoca.label("epoca"),
+            Lectura.temperatura.label("temperatura"),
+        ).where(*condiciones).subquery()
+        filas = db.session.execute(
+            select(func.avg(agrupadas.c.epoca), func.avg(agrupadas.c.temperatura), func.count())
+            .group_by(agrupadas.c.grupo)
+            .order_by(agrupadas.c.grupo)
+        ).all()
+        puntos = [
+            (datetime.fromtimestamp(float(epoca_media), timezone.utc), round(float(promedio), 1), cantidad)
+            for epoca_media, promedio, cantidad in filas
+        ]
+
+    return {"desde": desde, "hasta": hasta, "intervalo_s": intervalo, "puntos": puntos}
 
 
 def _a_float(valor):
