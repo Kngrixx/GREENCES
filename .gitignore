@@ -28,10 +28,6 @@ yarn-error.log*
 # (.vscode/ de frontend se sube a propósito; ver frontend/.gitignore)
 
 
-# ── Archivos locales (no van al repo) ──
-Claude outputs/
-esp32/circuito/protoboard_espejo.png
-
 # ── Sistema ───────────────────────────
 .DS_Store
 Thumbs.db

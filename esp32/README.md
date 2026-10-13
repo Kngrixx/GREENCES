@@ -2,7 +2,9 @@
 
 Programa en MicroPython para la Heltec WiFi LoRa 32 V3 (ESP32-S3). Lee los sensores, aplica las reglas de control, imprime el JSON en consola cada 2 s y lo envía al backend por WiFi cada 15 s, solo con el sistema ENCENDIDO.
 
-## Archivos
+En `esp32/` están solo los archivos que van a la placa. Las pruebas y plantillas están en `esp32/pruebas/`.
+
+## Archivos que van a la placa
 
 | Archivo | Va a la placa | Qué hace |
 | --- | --- | --- |
@@ -13,15 +15,19 @@ Programa en MicroPython para la Heltec WiFi LoRa 32 V3 (ESP32-S3). Lee los senso
 | `reglas.py` | Sí | Reglas de control como funciones puras (LED verde, LED rojo, ventilador con histéresis, LED blanco). |
 | `comunicacion.py` | Sí | `ConexionWiFi` (conexión y reconexión sin bloquear) y `ClienteServidor` (POST del JSON). |
 | `secretos.py` | Sí | Red WiFi, clave e IP del servidor. **No se sube a GitHub** (está en `.gitignore`). |
-| `secretos_ejemplo.py` | No | Plantilla de `secretos.py` (esta sí va al repositorio). |
-| `servidor_prueba.py` | No | Se ejecuta en el PC: recibe los POST para probar el envío antes de tener el backend. |
-| `prueba_circuito.py` | No | Menú para probar cada componente del montaje por separado. |
-| `prueba_clases.py` | No | Prueba de 20 s de las clases de `hardware.py`. |
-| `circuito/` | No | Esquema y montaje en la protoboard. |
+
+## Carpeta `pruebas/` (no van a la placa)
+
+| Archivo | Qué hace |
+| --- | --- |
+| `secretos_ejemplo.py` | Plantilla de `secretos.py` (esta sí va al repositorio). |
+| `servidor_prueba.py` | Se ejecuta en el PC: recibe los POST para probar el envío antes de tener el backend. |
+| `prueba_circuito.py` | Se abre en Thonny y se ejecuta en la placa: menú para probar cada componente del montaje por separado. |
+| `prueba_clases.py` | Se abre en Thonny y se ejecuta en la placa: prueba de 20 s de las clases de `hardware.py`. |
 
 ## Puesta en marcha
 
-1. Llenar `secretos.py` con la red WiFi (2,4 GHz) y la IP del computador que recibe los datos (`ipconfig` → Dirección IPv4). El ESP32 y ese computador deben estar en la misma red.
+1. Copiar `pruebas/secretos_ejemplo.py` como `secretos.py` (en `esp32/`, junto a `main.py`) y llenarlo con la red WiFi (2,4 GHz) y la IP del computador que recibe los datos (`ipconfig` → Dirección IPv4). El ESP32 y ese computador deben estar en la misma red.
 2. En Thonny, con la placa conectada, subir a la placa (clic derecho → **Subir a /**): `main.py`, `config.py`, `hardware.py`, `htu21d.py`, `reglas.py`, `comunicacion.py` y `secretos.py`.
 3. Reiniciar la placa (botón RST, o **Ctrl+D** en la consola de Thonny). `main.py` arranca solo y el sistema queda APAGADO.
 4. Presionar el pulsador para encender y otra vez para apagar.
@@ -31,7 +37,7 @@ Programa en MicroPython para la Heltec WiFi LoRa 32 V3 (ESP32-S3). Lee los senso
 En el computador que recibe (PowerShell, en la carpeta del proyecto):
 
 ```
-python esp32/servidor_prueba.py
+python esp32/pruebas/servidor_prueba.py
 ```
 
 El servidor muestra la IP que va en `secretos.SERVIDOR` e imprime cada JSON que llega con los segundos transcurridos desde el anterior (deben ser unos 15 s). La primera vez, Windows pregunta si permite el acceso a Python en la red: aceptar para **redes privadas**.

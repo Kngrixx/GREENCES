@@ -1,7 +1,7 @@
 """
 secretos_ejemplo.py - Plantilla de los datos privados del montaje.
 
-1. Copia este archivo con el nombre secretos.py (en la misma carpeta esp32/).
+1. Copia este archivo con el nombre secretos.py en la carpeta esp32/ (junto a main.py).
 2. Llena tus datos en secretos.py y subelo a la placa junto con los demas archivos.
 
 secretos.py esta en .gitignore: la clave del WiFi nunca llega a GitHub. Este

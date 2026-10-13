@@ -107,11 +107,11 @@ Los tiempos (parpadeo de 500 ms y envío cada 15 s) se miden con `time.ticks_ms(
 
 ### ESP32
 
-1. Copiar `esp32/secretos_ejemplo.py` como `esp32/secretos.py` y llenar la red WiFi (2,4 GHz) y la IP del computador que corre el backend.
+1. Copiar `esp32/pruebas/secretos_ejemplo.py` como `esp32/secretos.py` y llenar la red WiFi (2,4 GHz) y la IP del computador que corre el backend.
 2. Con Thonny, subir a la placa `main.py`, `config.py`, `hardware.py`, `htu21d.py`, `reglas.py`, `comunicacion.py` y `secretos.py`.
 3. Reiniciar la placa: arranca APAGADA; el pulsador la enciende y la apaga.
 
-Para probar el envío antes de tener el backend: `python esp32/servidor_prueba.py` en el computador que recibe. Más detalles en [`esp32/README.md`](esp32/README.md).
+Para probar el envío antes de tener el backend: `python esp32/pruebas/servidor_prueba.py` en el computador que recibe. Más detalles en [`esp32/README.md`](esp32/README.md).
 
 ### Backend
 

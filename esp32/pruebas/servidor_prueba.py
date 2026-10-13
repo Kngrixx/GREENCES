@@ -3,7 +3,7 @@ servidor_prueba.py - Servidor minimo para probar el envio del ESP32 ANTES de ten
 
 Se ejecuta en el COMPUTADOR (no en la placa), con Python normal y sin instalar nada:
 
-    python esp32/servidor_prueba.py
+    python esp32/pruebas/servidor_prueba.py
 
 Escucha en el puerto 5000 la misma ruta que tendra el backend Flask
 (POST /api/lecturas), imprime cada JSON que llega y cuantos segundos pasaron

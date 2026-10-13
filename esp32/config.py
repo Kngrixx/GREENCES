@@ -6,7 +6,7 @@ esta aqui, en un solo lugar. Las clases y el programa principal solo importan
 estos nombres: si algo cambia en la protoboard, se cambia en este archivo.
 """
 
-# ---------------- Pines (ver README y esp32/circuito/) ----------------
+# ---------------- Pines (ver el README) ----------------
 PIN_PULSADOR = 2       # a GND, con PULL_UP interno: suelto = 1, presionado = 0
 PIN_LED_VERDE = 6      # PWM
 PIN_LED_ROJO = 7
